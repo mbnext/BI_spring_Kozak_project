@@ -63,17 +63,17 @@ In the resulted .fasta file were sequences of 12 nt (bedtools INCLUDES the right
 `python3 ./scripts/Kozak+1_to_Kozak.py gencode.v40_kozak_seq_pure.fasta gencode.v40_kozak_seq.fasta gencode.v40_kozak_intervals_withCDSandstrands.bed` 
 
 #### Variants preparation
-1. If the chromosome name in the .vcf is not 'chr1' but just '1', add 'chr' (there are 'chr1' in gencode and gnomAD data and '1' in clinvar and we need to unify them before intersecting)
-
-`cat <filename>.vcf | awk '{print "chr"$0}' > <filename>_1.vcf`
-
-2. Filter only the SNP (1 nt change to another 1 nt) (and I save the header too here)
+1. For gnomAD file: filter only the SNP (1 nt change to another 1 nt) (and I save the header too here)
 
 `cat <filename>.vcf | grep '##' > <filename>_snp_with_header.vcf`
 
 `cat <filename>.vcf | grep -v '^#' | awk -v FS="\t" -v OFS="\t" 'length($4) == 1'| awk -v FS="\t" -v OFS="\t" 'length($5) == 1' >> <filename>_snp_with_header.vcf`
 
-These steps are similar for ClinVar and gnomAD .vcf files, so I use <filename> here to generalize (substitute it with your actual filename). 
+2. For ClinVar file add 'chr' to the chromosome naming if it has no 'chr' and perform the same filtration.
+
+`cat <filename>.vcf | grep '##' > <filename>_snp_with_header.vcf`
+
+`cat <filename>.vcf | grep -v '^#' | awk '{print "chr"$0}' | awk -v FS="\t" -v OFS="\t" 'length($4) == 1'| awk -v FS="\t" -v OFS="\t" 'length($5) == 1' >> <filename>_snp_with_header.vcf`
 
 
 ### Main pipeline
@@ -126,7 +126,7 @@ Additionally I delete here the double chromosome column ($9).
   
 `cat <filename>_in_gencode_kozak_CDSstrands_snps_noborders.txt | awk -v FS="\t" -v OFS="\t" '$12 ~ "-"' |  awk -v FS="\t" -v OFS="\t" '{print $1, $2, $3, $4, $5, $6, $7, $8, $10, $11, $12, $13 = $11-$2-1}' >> <filename>_in_gencode_kozak_CDSstrands_snps_noborders_pos.txt`
   
-`sort -n <filename>_in_gencode_kozak_CDSstrands_snps_noborders_pos.txt > <filename>_in_gencode_kozak_CDSstrands_snps_noborders_pos_sorted.txt`
+`sort -k1,1 -k2,2n <filename>_in_gencode_kozak_CDSstrands_snps_noborders_pos.txt > <filename>_in_gencode_kozak_CDSstrands_snps_noborders_pos_sorted.txt`
 
 4. Run the script for 'crude' annotation _mutation_sense_finder.py_: it analyses the variant position within the Kozak sequence and classifies the variant to the one of 5 classes: 'upstream' (the position is in range from 0 to 5), 'no_start' (the position is in range from 6 to 8, in the start codon), 'synonymous'/'missense'/'nonsense' (the position is 9 or 10 and Kozak sequences plus 1 nt are used to understand the change in 2nd codon). Before the annotation the script checks if the Ref letter from the .vcf file is on the dedicated position in the Kozak sequence extracted from the genome (if FALSE, the variant gets the class 'Error in annotation'). There are 4 positional arguments in the script: input file path, output file path, .fasta with extracted Kozak sequences (+1 nt) and the path to a file where the script writes data about 'Error in annotation'. 
   
