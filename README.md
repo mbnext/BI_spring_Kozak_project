@@ -156,15 +156,46 @@ There are 2 positional arguments in the script: input and output files pathways.
 "ID	chromosome	position	Ref	Alt	Kozak_start	Kozak_end	Chain	Kozak_variant_position	variant_annotation	Kozak_type	Ref_Kozak_efficiency	Ref_Kozak_lower	Ref_Kozak_upper	Alt_Kozak_efficiency	Alt_Kozak_lower	Alt_Kozak_upper	Change_description	Relative_efficiency	Clin_Sig	Gene"
 
 ### Analysis with R
-The datasets for ClinVar and gnomAD variants were downloaded as data frames and then joined with _rbind()_. Vizualization was performed with the package _ggplot2_. 
+The datasets for ClinVar and gnomAD variants were downloaded as data frames and then joined with _rbind()_. Vizualization was performed with the package _ggplot2_. The _reshape2_ package has to be downloaded too. The details are in the file **spring_project.Rmd** (knitted version is spring_project.html)
 
 ### Model training
 The dataset for ClinVar variants was downloaded in Jupyter notebook. I have tried to learn the _DecisionTreeClassifier_ from the library _Sci-kit Learn_ but the results were diffucult to interpret and they are not represented here. May be we will return to this task after corrections in the previous described analysis. 
 
 ## Results
+Total number of the sequences and variants during the pipeline:
+ - Extracted Kozak sequences from genome assembly: ~39000
+ - Total gnomAD and Clinvar variants intersected with extracted Kozak’s: 7921 
+ - Variants which can be referred as benign or pathogenic and likely pathogenic (variants from gnomAD with AF>5% were referred as benign here): 2657
+ - Variants located in Kozak sequences with classic AUG start codon: 1984
+ - Variants with ‘upstream’ and ‘synonymous’ annotation: 807
+ - Upstream and synonymous variants which have nonintersected confidence intervals between Ref and Alt sequences: 92
+
+We can see that only a few variants have significant effect of the mutation. The suspicious facts are that a lot of 'not_AUG_Kozak' sequences were in the extracted from the genome Kozak set, and the second fact is that about 500 variants from gnomAD was intersected (from about 8000000 of SNP), it seems to be too small number (maybe there is a mistake somewhere). 
+
+![plot_F_04](https://user-images.githubusercontent.com/34398217/169671046-ad880837-115d-433f-9c24-a6aa4acddca7.jpeg)
+
+**Fig. 1. Distribution of the annotation types among the 2657 variants of known pathogenicity (AUG + not_AUG Kozak's)**
 
 
+![plot_F_09](https://user-images.githubusercontent.com/34398217/169671069-98c84317-50b9-4d0f-83fe-80ead0995049.jpeg)
 
+**Fig. 2. Distribution of the annotation types among the 2657 variants of known pathogenicity in AUG Kozak's**
+
+
+![plot_F_19](https://user-images.githubusercontent.com/34398217/169671131-23b6726b-2426-4c49-9c32-4fd2a06c92fa.jpeg)
+
+**Fig. 3. Ref. and Alt. Kozak sequences efficiencies for pathogenic and benign variants (for 92 ‘significant’ variants)**
+
+
+![plot_F_20](https://user-images.githubusercontent.com/34398217/169671137-bd6ba92a-4755-460a-9e65-cf714f7d173e.jpeg)
+
+**Fig. 4. Distributions of Ref. and Alt. Kozak sequences  for pathogenic and benign variants according to the variant position in upstream Kozak sequence (for 92 ‘significant’ variants)** 
+0 is ‘-6’ position, 1 is ‘-5’, etc.
+
+More plots are in the file **spring_project.html**
+
+## Conclusions
+According to performed analysis, there are no significant differences in the predicted translation efficiency of the reference and alternative Kozak sequences referred as benign or pathogenic
 
 ## Future plans
 1. Fix the bugs:
