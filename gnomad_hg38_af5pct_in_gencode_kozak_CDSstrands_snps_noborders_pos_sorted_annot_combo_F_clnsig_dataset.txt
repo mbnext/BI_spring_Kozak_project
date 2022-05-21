@@ -1,0 +1,586 @@
+ID	chromosome	position	Ref	Alt	Kozak_start	Kozak_end	Chain	Kozak_variant_position	variant_annotation	Kozak_type	Ref_Kozak_efficiency	Ref_Kozak_lower	Ref_Kozak_upper	Alt_Kozak_efficiency	Alt_Kozak_lower	Alt_Kozak_upper	Change_description	Relative_efficiency	Clin_Sig	Gene
+rs6660139	chr1	981169	A	G	981160	981172	-	2	upstream	AUG_Kozak	53	49	58	48	45	52	getting lower	0.9056603773584906	Benign	.
+rs61774959	chr1	1657267	G	A	1657258	1657270	-	2	upstream	AUG_Kozak	96	89	103	89	82	96	getting lower	0.9270833333333334	Benign	.
+rs61777494	chr1	1722599	G	A	1722590	1722602	-	2	upstream	AUG_Kozak	96	89	103	89	82	96	getting lower	0.9270833333333334	Benign	.
+rs1462467408	chr1	13199588	A	C	13199583	13199595	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr1	13226110	G	C	13226100	13226112	-	1	upstream	AUG_Kozak	89	82	97	88	80	95	getting lower	0.9887640449438202	Benign	.
+rs221052	chr1	16206527	C	T	16206520	16206532	-	4	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr1	16936795	G	A	16936784	16936796	+	10	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr1	23868283	G	A	23868280	23868292	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr1	26177545	G	A	26177541	26177553	+	3	upstream	AUG_Kozak	64	59	70	71	66	77	getting higher	1.109375	Benign	.
+rs4077651	chr1	26994323	C	G	26994312	26994324	+	10	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs12124733	chr1	42830447	G	A	42830442	42830454	+	4	upstream	AUG_Kozak	58	54	63	73	68	79	getting higher	1.2586206896551724	Benign	.
+.	chr1	45008393	G	A	45008383	45008395	-	1	upstream	AUG_Kozak	47	43	51	43	39	46	getting lower	0.9148936170212766	Benign	.
+rs3737744	chr1	46344858	A	G	46344848	46344860	+	9	missense	AUG_Kozak	92	85	100	111	103	121	getting higher	1.2065217391304348	Benign	.
+rs597221	chr1	46665647	A	T	46665642	46665654	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs11801079	chr1	47189927	C	T	47189926	47189938	-	10	missense	AUG_Kozak	79	73	86	111	103	120	getting lower	1.4050632911392404	Benign	.
+rs487230	chr1	55075501	A	G	55075493	55075505	-	3	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1133891	chr1	74748757	A	G	74748750	74748762	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3795251	chr1	75932287	C	T	75932285	75932297	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr1	108722407	G	T	108722404	108722416	+	2	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs59123361	chr1	110223832	G	A	110223823	110223835	+	8	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr1	114625979	A	T	114625978	114625990	-	10	missense	AUG_Kozak	76	70	82	80	73	87	getting higher	1.0526315789473684	Benign	.
+rs939592	chr1	151714507	T	A	151714502	151714514	+	4	upstream	AUG_Kozak	96	87	105	97	89	106	getting higher	1.0104166666666667	Benign	.
+.	chr1	152827467	G	A	152827466	152827478	+	0	upstream	AUG_Kozak	74	69	80	79	72	85	getting higher	1.0675675675675675	Benign	.
+.	chr1	152827470	G	A	152827466	152827478	+	3	upstream	AUG_Kozak	74	69	80	77	71	84	getting higher	1.0405405405405406	Benign	.
+rs2075739	chr1	153003019	G	A	153003014	153003026	+	4	upstream	AUG_Kozak	79	73	86	83	77	90	getting higher	1.0506329113924051	Benign	.
+.	chr1	161781951	A	G	161781944	161781956	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr1	169485770	G	A	169485760	169485772	-	1	upstream	AUG_Kozak	61	56	66	51	48	56	getting lower	0.8360655737704918	Benign	.
+rs115466880	chr1	176206983	A	C	176206972	176206984	-	0	upstream	AUG_Kozak	76	70	82	90	83	97	getting higher	1.1842105263157894	Benign	.
+.	chr1	183186347	C	A	183186346	183186358	+	0	upstream	AUG_Kozak	65	60	72	65	60	71	equal	1.0	Benign	.
+rs800292	chr1	196673103	G	A	196673102	196673114	+	0	upstream	AUG_Kozak	79	73	85	83	77	90	getting higher	1.0506329113924051	Benign	.
+rs72746693	chr1	202203815	A	G	202203813	202203825	+	1	upstream	AUG_Kozak	101	92	110	114	106	124	getting higher	1.1287128712871286	Benign	.
+.	chr1	209775366	A	C	209775360	209775372	+	5	upstream	AUG_Kozak	76	70	82	68	62	73	getting lower	0.8947368421052632	Benign	.
+rs2789784	chr1	219959023	T	G	219959012	219959024	-	0	upstream	AUG_Kozak	89	83	96	89	83	96	equal	1.0	Benign	.
+rs2236358	chr1	227748061	G	A	227748056	227748068	+	4	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr1	228157753	G	C	228157752	228157764	+	0	upstream	AUG_Kozak	93	85	101	86	78	94	getting lower	0.9247311827956989	Benign	.
+.	chr1	228211781	C	G	228211777	228211789	+	3	upstream	AUG_Kozak	77	71	84	80	74	87	getting higher	1.0389610389610389	Benign	.
+.	chr1	232950710	T	C	232950704	232950716	+	5	upstream	AUG_Kozak	134	124	145	113	104	122	getting lower	0.8432835820895522	Benign	.
+rs66929873	chr1	235161230	T	A	235161220	235161232	-	1	upstream	AUG_Kozak	106	98	115	101	92	110	getting lower	0.9528301886792453	Benign	.
+rs684923	chr1	237651483	C	T	237651482	237651494	+	0	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3750684	chr10	1737155	G	A	1737144	1737156	-	0	upstream	AUG_Kozak	112	103	121	118	108	128	getting higher	1.0535714285714286	Benign	.
+rs4881396	chr10	5077965	G	T	5077956	5077968	+	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3736460	chr10	5813262	G	A	5813252	5813264	-	1	upstream	AUG_Kozak	84	77	92	83	77	90	getting lower	0.9880952380952381	Benign	.
+rs2228150	chr10	6026006	C	T	6025995	6026007	-	0	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs7074082	chr10	6146375	A	G	6146372	6146384	+	2	upstream	AUG_Kozak	103	95	111	108	100	117	getting higher	1.0485436893203883	Benign	.
+rs2244380	chr10	13116262	C	T	13116261	13116273	+	0	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2297882	chr10	15860304	A	G	15860293	15860305	-	0	upstream	AUG_Kozak	105	97	113	96	89	103	getting higher	0.9142857142857143	Benign	.
+rs17141457	chr10	17644335	C	T	17644333	17644345	+	1	upstream	AUG_Kozak	73	68	79	74	69	80	getting higher	1.0136986301369864	Benign	.
+rs2274741	chr10	27014676	A	T	27014673	27014685	-	8	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs16932010	chr10	30857686	T	C	30857680	30857692	-	5	upstream	AUG_Kozak	45	42	49	55	51	60	getting higher	1.2222222222222223	Benign	.
+.	chr10	46578802	G	A	46578798	46578810	+	3	upstream	AUG_Kozak	96	89	104	106	98	115	getting higher	1.1041666666666667	Benign	.
+rs1462530696	chr10	47491676	G	A	47491668	47491680	-	3	upstream	AUG_Kozak	102	94	111	102	94	111	equal	1.0	Benign	.
+rs3810950	chr10	49616573	G	A	49616563	49616575	+	9	missense	AUG_Kozak	126	116	136	109	101	118	getting lower	0.8650793650793651	Benign	.
+rs4935425	chr10	50068003	A	G	50067999	50068011	+	3	upstream	AUG_Kozak	81	75	87	74	69	80	getting lower	0.9135802469135802	Benign	.
+rs2813328	chr10	50745132	T	C	50745124	50745136	+	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs10825269	chr10	54195850	C	T	54195840	54195852	-	1	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2271126	chr10	60911547	G	A	60911536	60911548	-	0	upstream	AUG_Kozak	72	67	78	75	69	81	getting higher	1.0416666666666667	Benign	.
+rs1947741	chr10	69630636	C	T	69630630	69630642	+	5	upstream	AUG_Kozak	81	75	87	77	72	84	getting lower	0.9506172839506173	Benign	.
+rs977096	chr10	69630637	A	G	69630630	69630642	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs41281302	chr10	71439831	C	T	71439825	71439837	+	5	upstream	AUG_Kozak	97	90	105	110	103	119	getting higher	1.134020618556701	Benign	.
+.	chr10	71851225	G	A	71851215	71851227	-	1	upstream	AUG_Kozak	99	91	106	106	98	114	getting lower	1.0707070707070707	Benign	.
+rs60632610	chr10	73655919	C	T	73655916	73655928	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs11528010	chr10	86876022	C	A	86876012	86876024	+	9	missense	AUG_Kozak	75	70	82	95	88	102	getting higher	1.2666666666666666	Benign	.
+rs3843597	chr10	87508200	C	T	87508198	87508210	+	1	upstream	AUG_Kozak	86	80	94	94	87	101	getting higher	1.0930232558139534	Benign	.
+rs3818876	chr10	97738477	G	A	97738471	97738483	+	5	upstream	AUG_Kozak	109	100	118	109	101	117	equal	1.0	Benign	.
+rs61382490	chr10	101694645	A	T	101694634	101694646	-	0	upstream	AUG_Kozak	111	103	120	111	102	121	equal	1.0	Benign	.
+rs2181118	chr10	119159734	T	C	119159733	119159745	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs17100985	chr10	120851415	G	A	120851414	120851426	+	0	upstream	AUG_Kozak	96	89	105	97	89	106	getting higher	1.0104166666666667	Benign	.
+.	chr10	122211207	T	A	122211202	122211214	+	4	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1891110	chr10	122850511	G	A	122850509	122850521	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr10	125896639	G	A	125896636	125896648	+	2	upstream	AUG_Kozak	80	73	86	79	73	86	getting lower	0.9875	Benign	.
+.	chr10	133358012	C	A	133358001	133358013	-	0	upstream	AUG_Kozak	69	63	75	76	70	83	getting higher	1.1014492753623188	Benign	.
+rs2074022	chr11	2302811	A	G	2302804	2302816	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1811456	chr11	4233282	G	A	4233281	4233293	+	0	upstream	AUG_Kozak	116	107	126	117	108	128	getting higher	1.0086206896551724	Benign	.
+rs7128702	chr11	4586886	T	C	4586884	4586896	+	1	upstream	AUG_Kozak	76	70	82	68	62	73	getting lower	0.8947368421052632	Benign	.
+rs3824949	chr11	5680179	G	C	5680171	5680183	-	3	upstream	AUG_Kozak	117	108	126	95	88	103	getting higher	0.811965811965812	Benign	.
+rs34841036	chr11	5761234	A	G	5761232	5761244	+	1	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr11	7825976	T	A	7825966	7825978	-	1	upstream	AUG_Kozak	89	82	96	78	71	85	getting lower	0.8764044943820225	Benign	.
+.	chr11	7825976	T	C	7825966	7825978	-	1	upstream	AUG_Kozak	89	82	96	88	81	95	getting lower	0.9887640449438202	Benign	.
+rs75033079	chr11	14364395	G	A	14364387	14364399	-	3	upstream	AUG_Kozak	70	64	76	86	79	93	getting higher	1.2285714285714286	Benign	.
+.	chr11	14978331	G	A	14978329	14978341	+	1	upstream	AUG_Kozak	85	79	92	72	66	79	getting lower	0.8470588235294118	Benign	.
+rs2305095	chr11	27055430	C	T	27055424	27055436	+	5	upstream	AUG_Kozak	95	87	103	108	99	117	getting higher	1.1368421052631579	Benign	.
+.	chr11	34916652	C	G	34916649	34916661	+	2	upstream	AUG_Kozak	105	97	113	116	108	126	getting higher	1.1047619047619048	Benign	.
+rs3808976	chr11	45805799	A	G	45805795	45805807	+	3	upstream	AUG_Kozak	98	91	106	88	81	95	getting lower	0.8979591836734694	Benign	.
+rs11039155	chr11	47259211	G	A	47259210	47259222	+	0	upstream	AUG_Kozak	82	75	88	79	73	87	getting lower	0.9634146341463414	Benign	.
+rs1842700	chr11	56093304	G	A	56093301	56093313	+	2	upstream	AUG_Kozak	121	111	132	124	114	134	getting higher	1.024793388429752	Benign	.
+rs11600896	chr11	56291059	C	T	56291056	56291068	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr11	56346040	T	C	56346032	56346044	+	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs368991074	chr11	56375622	A	G	56375617	56375629	+	4	upstream	AUG_Kozak	112	103	122	119	108	130	getting higher	1.0625	Benign	.
+.	chr11	56375627	G	A	56375617	56375629	+	9	missense	AUG_Kozak	112	103	122	95	87	104	getting lower	0.8482142857142857	Benign	.
+rs61902821	chr11	58190488	T	C	58190484	58190496	+	3	upstream	AUG_Kozak	83	76	90	91	84	99	getting higher	1.0963855421686748	Benign	.
+.	chr11	61392630	G	T	61392625	61392637	+	4	upstream	AUG_Kozak	28	26	30	32	30	35	getting higher	1.1428571428571428	Benign	.
+rs663743	chr11	64340263	G	A	64340260	64340272	+	2	upstream	AUG_Kozak	71	66	78	75	69	82	getting higher	1.056338028169014	Benign	.
+rs525781	chr11	65089028	A	G	65089019	65089031	-	2	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs525781	chr11	65089028	A	G	65089025	65089037	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs10896017	chr11	65572664	C	T	65572663	65572675	+	0	upstream	AUG_Kozak	86	79	94	88	81	96	getting higher	1.0232558139534884	Benign	.
+rs7945723	chr11	66288986	G	A	66288979	66288991	-	4	upstream	AUG_Kozak	113	104	122	118	110	128	getting higher	1.0442477876106195	Benign	.
+rs57238619	chr11	67307660	C	T	67307650	67307662	+	9	nonsense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1138272	chr11	67586108	C	T	67586097	67586109	+	10	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs4930624	chr11	68903951	C	T	68903946	68903958	+	4	upstream	AUG_Kozak	111	103	120	111	103	119	equal	1.0	Benign	.
+rs12290914	chr11	70085518	G	A	70085512	70085524	+	5	upstream	AUG_Kozak	71	66	77	77	71	83	getting higher	1.0845070422535212	Benign	.
+rs36164574	chr11	71565586	T	C	71565581	71565593	+	4	upstream	AUG_Kozak	112	103	121	97	89	105	getting lower	0.8660714285714286	Benign	.
+rs7110501	chr11	72700037	T	C	72700033	72700045	-	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3741122	chr11	74697695	C	T	74697688	74697700	-	4	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr11	75399545	A	G	75399541	75399553	+	3	upstream	AUG_Kozak	107	98	115	105	98	113	getting lower	0.9813084112149533	Benign	.
+rs4945203	chr11	77698523	T	C	77698522	77698534	-	10	Error in annotation	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr11	78023248	A	T	78023243	78023255	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs11601425	chr11	113699663	C	T	113699661	113699673	-	9	nonsense	AUG_Kozak	46	43	50	60	56	65	getting higher	1.3043478260869565	Benign	.
+.	chr11	113977551	A	T	113977548	113977560	+	2	upstream	AUG_Kozak	39	35	43	29	27	31	getting lower	0.7435897435897436	Benign	.
+rs651821	chr11	116791863	C	T	116791854	116791866	-	2	upstream	AUG_Kozak	110	101	119	113	104	123	getting higher	1.0272727272727273	Benign	.
+.	chr11	118883940	C	G	118883935	118883947	+	4	upstream	AUG_Kozak	97	89	105	88	81	95	getting lower	0.9072164948453608	Benign	.
+rs12795576	chr11	119335120	A	G	119335116	119335128	+	3	upstream	AUG_Kozak	76	71	83	66	61	72	getting lower	0.868421052631579	Benign	.
+rs12797894	chr11	125951868	C	T	125951859	125951871	+	8	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1786702	chr11	126269205	T	C	126269200	126269212	+	4	upstream	AUG_Kozak	78	72	85	87	80	94	getting higher	1.1153846153846154	Benign	.
+rs2241279	chr12	4444217	A	G	4444213	4444225	-	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs74060111	chr12	8172630	A	C	8172619	8172631	+	10	missense	AUG_Kozak	101	93	110	73	67	79	getting lower	0.7227722772277227	Benign	.
+.	chr12	9680928	C	G	9680918	9680930	+	9	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2682489	chr12	10420546	C	T	10420544	10420556	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr12	10435982	T	C	10435980	10435992	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr12	10610637	G	C	10610630	10610642	-	4	upstream	AUG_Kozak	86	79	94	90	82	98	getting higher	1.0465116279069768	Benign	.
+rs1133028	chr12	28450179	A	G	28450172	28450184	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3759139	chr12	38693807	G	A	38693800	38693812	-	4	upstream	AUG_Kozak	53	49	57	53	49	57	equal	1.0	Benign	.
+rs59844371	chr12	42343863	G	A	42343862	42343874	+	0	upstream	AUG_Kozak	93	86	101	92	85	101	getting lower	0.989247311827957	Benign	.
+.	chr12	47879112	A	G	47879107	47879119	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs11609399	chr12	48107378	A	T	48107367	48107379	+	10	missense	AUG_Kozak	109	100	118	102	94	110	getting lower	0.9357798165137615	Benign	.
+rs2277382	chr12	51912437	C	T	51912426	51912438	+	10	missense	AUG_Kozak	90	83	97	40	37	44	getting lower	0.4444444444444444	Benign	.
+.	chr12	52519122	G	T	52519111	52519123	-	0	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1065306	chr12	52904985	A	G	52904975	52904987	-	1	upstream	AUG_Kozak	95	88	102	90	84	97	getting lower	0.9473684210526315	Benign	.
+rs11170877	chr12	54340505	A	G	54340498	54340510	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs7301705	chr12	55247291	A	G	55247281	55247293	+	9	missense	AUG_Kozak	99	91	107	109	101	118	getting higher	1.101010101010101	Benign	.
+rs35493121	chr12	56996254	T	C	56996252	56996264	+	1	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3825080	chr12	57477772	A	G	57477767	57477779	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr12	57611899	G	A	57611888	57611900	+	10	missense	AUG_Kozak	76	70	82	96	89	103	getting higher	1.263157894736842	Benign	.
+.	chr12	69348408	C	T	69348402	69348414	+	5	upstream	AUG_Kozak	93	87	101	99	92	107	getting higher	1.064516129032258	Benign	.
+rs1800832	chr12	85874401	A	G	85874397	85874409	+	3	upstream	AUG_Kozak	99	91	107	96	89	103	getting lower	0.9696969696969697	Benign	.
+.	chr12	89351049	A	G	89351044	89351056	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1859331	chr12	112938526	C	A	112938524	112938536	+	1	upstream	AUG_Kozak	76	71	83	74	68	80	getting lower	0.9736842105263158	Benign	.
+.	chr12	122204614	C	G	122204612	122204624	+	1	upstream	AUG_Kozak	32	29	34	28	25	30	getting lower	0.875	Benign	.
+rs2230942	chr12	124342052	T	C	124342049	124342061	-	8	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs4238001	chr12	124863717	C	T	124863714	124863726	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs11061163	chr12	130839094	C	G	130839093	130839105	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr12	132710873	C	T	132710870	132710882	+	2	upstream	AUG_Kozak	110	101	118	104	97	113	getting lower	0.9454545454545454	Benign	.
+rs17197663	chr13	37598730	G	A	37598720	37598732	-	1	upstream	AUG_Kozak	112	103	121	106	98	114	getting lower	0.9464285714285714	Benign	.
+rs3904512	chr13	37783334	G	A	37783327	37783339	-	4	upstream	AUG_Kozak	102	94	110	102	94	110	equal	1.0	Benign	.
+rs9532758	chr13	41260903	T	C	41260901	41260913	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2298229	chr13	53028835	A	G	53028830	53028842	+	4	upstream	AUG_Kozak	86	79	93	80	74	86	getting lower	0.9302325581395349	Benign	.
+rs625033	chr13	75804323	T	C	75804313	75804325	+	9	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs625033	chr13	75804323	T	C	75804320	75804332	+	2	upstream	AUG_Kozak	124	114	134	134	124	145	getting higher	1.0806451612903225	Benign	.
+rs41279112	chr13	98377817	G	A	98377814	98377826	+	2	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr13	113074467	G	A	113074460	113074472	+	6	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2261241	chr13	113495576	T	C	113495575	113495587	+	0	upstream	AUG_Kozak	90	83	97	88	81	96	getting lower	0.9777777777777777	Benign	.
+rs2775236	chr14	20034762	G	A	20034752	20034764	-	1	upstream	AUG_Kozak	79	73	85	79	73	85	equal	1.0	Benign	.
+.	chr14	20060048	G	A	20060038	20060050	+	9	missense	AUG_Kozak	62	57	67	60	56	65	getting lower	0.967741935483871	Benign	.
+rs891297	chr14	20558614	C	T	20558609	20558621	-	6	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs7149011	chr14	21094401	T	C	21094398	21094410	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs4457918	chr14	23953786	T	G	23953782	23953794	+	3	upstream	AUG_Kozak	68	63	73	108	100	117	getting higher	1.588235294117647	Benign	.
+.	chr14	36320589	G	A	36320582	36320594	-	4	upstream	AUG_Kozak	119	110	128	107	99	116	getting lower	0.8991596638655462	Benign	.
+.	chr14	54408558	C	A	54408557	54408569	+	0	upstream	AUG_Kozak	92	84	99	88	81	95	getting lower	0.9565217391304348	Benign	.
+.	chr14	55440454	C	G	55440443	55440455	-	0	upstream	AUG_Kozak	41	38	45	52	48	56	getting higher	1.2682926829268293	Benign	.
+rs10131087	chr14	55644384	A	C	55644380	55644392	+	3	upstream	AUG_Kozak	82	76	89	72	66	78	getting lower	0.8780487804878049	Benign	.
+rs12893562	chr14	56491529	C	T	56491526	56491538	+	2	upstream	AUG_Kozak	90	84	98	77	71	83	getting lower	0.8555555555555555	Benign	.
+rs10143202	chr14	60658222	A	G	60658217	60658229	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3784075	chr14	66824468	T	C	66824467	66824479	+	0	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs113468911	chr14	70907845	G	C	70907844	70907856	+	0	upstream	AUG_Kozak	106	98	114	106	97	114	equal	1.0	Benign	.
+rs1074501	chr14	73523155	C	T	73523146	73523158	-	2	upstream	AUG_Kozak	101	93	109	84	78	91	getting higher	0.8316831683168316	Benign	.
+rs72729677	chr14	76310914	C	T	76310908	76310920	+	5	upstream	AUG_Kozak	82	75	90	93	85	101	getting higher	1.1341463414634145	Benign	.
+.	chr14	88385822	G	A	88385812	88385824	+	9	missense	AUG_Kozak	78	72	85	89	82	97	getting higher	1.141025641025641	Benign	.
+rs17126522	chr14	89985156	A	G	89985152	89985164	+	3	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs7143453	chr14	99572772	C	G	99572762	99572774	-	1	upstream	AUG_Kozak	78	72	85	78	72	85	equal	1.0	Benign	.
+rs7158731	chr14	102326049	T	C	102326038	102326050	+	10	missense	AUG_Kozak	69	63	75	61	56	67	getting lower	0.8840579710144928	Benign	.
+rs1543540	chr14	102331718	G	A	102331707	102331719	+	10	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr14	102592883	G	A	102592880	102592892	+	2	upstream	AUG_Kozak	59	54	64	63	58	68	getting higher	1.0677966101694916	Benign	.
+.	chr14	103928513	C	T	103928503	103928515	+	9	synonymous	AUG_Kozak	94	86	101	105	97	114	getting higher	1.1170212765957446	Benign	.
+rs11851097	chr14	103970594	C	T	103970590	103970602	+	3	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr14	104729893	A	C	104729886	104729898	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs7140395	chr14	105487258	T	C	105487253	105487265	+	4	upstream	AUG_Kozak	74	68	80	64	59	69	getting lower	0.8648648648648649	Benign	.
+rs140674	chr15	27328821	T	C	27328810	27328822	+	10	missense	AUG_Kozak	68	63	74	67	62	73	getting lower	0.9852941176470589	Benign	.
+.	chr15	30604125	G	A	30604119	30604131	+	5	upstream	AUG_Kozak	119	110	129	120	111	130	getting higher	1.0084033613445378	Benign	.
+rs4779816	chr15	31076920	A	G	31076915	31076927	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1430880197	chr15	32455537	T	C	32455530	32455542	-	4	upstream	AUG_Kozak	120	111	130	120	111	130	equal	1.0	Benign	.
+rs4991467	chr15	32615021	G	C	32615012	32615024	+	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs10152546	chr15	40563011	T	A	40563009	40563021	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr15	43618242	A	G	43618234	43618246	-	3	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs8026845	chr15	44674191	T	C	44674185	44674197	-	5	upstream	AUG_Kozak	54	50	59	60	55	65	getting higher	1.1111111111111112	Benign	.
+rs113052860	chr15	45597920	T	C	45597916	45597928	+	3	upstream	AUG_Kozak	58	53	63	85	78	92	getting higher	1.4655172413793103	Benign	.
+rs17602686	chr15	51377428	A	C	51377421	51377433	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs35664837	chr15	51692165	A	G	51692158	51692170	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr15	55498332	C	T	55498323	55498335	-	2	upstream	AUG_Kozak	71	65	78	65	59	70	getting lower	0.9154929577464789	Benign	.
+rs72739147	chr15	58279202	A	T	58279197	58279209	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2127164	chr15	67819699	C	T	67819697	67819709	+	1	upstream	AUG_Kozak	76	70	82	68	63	74	getting lower	0.8947368421052632	Benign	.
+rs2290574	chr15	74843106	T	C	74843099	74843111	-	4	upstream	AUG_Kozak	115	106	125	95	88	103	getting higher	0.8260869565217391	Benign	.
+rs3812908	chr15	76883817	T	C	76883811	76883823	-	5	upstream	AUG_Kozak	78	72	85	73	67	79	getting lower	0.9358974358974359	Benign	.
+rs2289524	chr15	78098072	T	C	78098064	78098076	+	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1036939	chr15	78944982	C	A	78944975	78944987	-	4	upstream	AUG_Kozak	82	76	89	77	71	82	getting lower	0.9390243902439024	Benign	.
+rs3200942	chr15	88639365	A	G	88639360	88639372	+	4	upstream	AUG_Kozak	118	109	129	126	116	137	getting higher	1.0677966101694916	Benign	.
+.	chr16	180482	C	G	180480	180492	+	1	upstream	AUG_Kozak	131	121	141	123	114	133	getting lower	0.9389312977099237	Benign	.
+.	chr16	280678	G	A	280674	280686	+	3	upstream	AUG_Kozak	86	79	93	101	93	109	getting higher	1.1744186046511629	Benign	.
+rs11862542	chr16	964119	A	G	964116	964128	-	8	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2745103	chr16	1488463	C	T	1488461	1488473	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr16	2009938	A	C	2009931	2009943	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr16	5239885	C	A	5239880	5239892	+	4	upstream	AUG_Kozak	103	95	111	106	98	114	getting higher	1.029126213592233	Benign	.
+rs376113512	chr16	5239887	A	G	5239880	5239892	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs7196856	chr16	8975272	C	T	8975271	8975283	-	10	missense	AUG_Kozak	67	61	73	73	67	79	getting higher	1.0895522388059702	Benign	.
+rs11546303	chr16	14648543	T	G	14648537	14648549	+	5	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs117041807	chr16	17470801	G	C	17470790	17470802	-	0	upstream	AUG_Kozak	90	83	98	90	83	98	equal	1.0	Benign	.
+rs74014266	chr16	28211369	G	A	28211362	28211374	-	4	upstream	AUG_Kozak	75	69	81	75	69	81	equal	1.0	Benign	.
+rs12149368	chr16	55833057	G	C	55833049	55833061	-	3	upstream	AUG_Kozak	90	83	97	84	77	91	getting lower	0.9333333333333333	Benign	.
+rs3859108	chr16	55871724	A	G	55871717	55871729	-	4	upstream	AUG_Kozak	52	48	56	36	33	39	getting lower	0.6923076923076923	Benign	.
+rs7206703	chr16	57058065	T	C	57058058	57058070	+	6	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs4359426	chr16	57358821	A	C	57358810	57358822	+	10	missense	AUG_Kozak	68	63	73	113	105	123	getting higher	1.661764705882353	Benign	.
+.	chr16	58001525	C	A	58001523	58001535	+	1	upstream	AUG_Kozak	88	81	96	78	72	84	getting lower	0.8863636363636364	Benign	.
+rs11558171	chr16	58734225	C	A	58734222	58734234	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1130821	chr16	64988331	C	T	64988328	64988340	-	8	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr16	69339511	T	C	69339500	69339512	-	0	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs7195567	chr16	70317526	C	G	70317520	70317532	+	5	upstream	AUG_Kozak	102	94	111	112	103	122	getting higher	1.0980392156862746	Benign	.
+rs3813905	chr16	70646947	C	G	70646941	70646953	+	5	upstream	AUG_Kozak	75	69	81	73	68	80	getting lower	0.9733333333333334	Benign	.
+rs115618771	chr16	75464250	T	C	75464244	75464256	-	5	upstream	AUG_Kozak	94	87	102	85	78	91	getting lower	0.9042553191489362	Benign	.
+rs3784932	chr16	75530389	T	C	75530378	75530390	-	0	upstream	AUG_Kozak	94	86	103	94	86	103	equal	1.0	Benign	.
+rs3743601	chr16	75556194	G	C	75556193	75556205	-	10	missense	AUG_Kozak	59	54	64	74	69	81	getting higher	1.2542372881355932	Benign	.
+rs11545028	chr16	78099774	C	T	78099772	78099784	+	1	upstream	AUG_Kozak	112	104	121	113	104	122	getting higher	1.0089285714285714	Benign	.
+rs8177876	chr16	81090670	G	A	81090662	81090674	-	3	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr16	82000359	T	G	82000353	82000365	-	5	upstream	AUG_Kozak	117	107	127	118	109	129	getting higher	1.0085470085470085	Benign	.
+.	chr16	84181784	T	C	84181777	84181789	-	4	upstream	AUG_Kozak	87	80	95	87	80	95	equal	1.0	Benign	.
+rs8061351	chr16	84849496	C	T	84849490	84849502	+	5	upstream	AUG_Kozak	68	63	75	61	57	67	getting lower	0.8970588235294118	Benign	.
+.	chr16	87392422	T	C	87392421	87392433	+	0	upstream	AUG_Kozak	79	73	86	78	72	84	getting lower	0.9873417721518988	Benign	.
+rs7188200	chr16	89100686	T	C	89100675	89100687	+	10	missense	AUG_Kozak	90	83	98	72	66	78	getting lower	0.8	Benign	.
+rs2070862	chr17	1745000	C	T	1744989	1745001	+	10	missense	AUG_Kozak	118	109	129	85	78	92	getting lower	0.7203389830508474	Benign	.
+rs7209613	chr17	3468885	A	G	3468880	3468892	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs390804	chr17	3546713	C	T	3546709	3546721	-	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2243093	chr17	4932600	T	C	4932598	4932610	+	1	upstream	AUG_Kozak	76	71	82	74	68	80	getting lower	0.9736842105263158	Benign	.
+rs10852904	chr17	8744613	G	C	8744603	8744615	-	1	upstream	AUG_Kozak	80	74	87	80	74	87	equal	1.0	Benign	.
+rs74629981	chr17	10039747	C	T	10039738	10039750	-	2	upstream	AUG_Kozak	82	75	88	71	66	77	getting lower	0.8658536585365854	Benign	.
+rs1550656	chr17	10803968	C	T	10803957	10803969	-	0	upstream	AUG_Kozak	87	80	94	87	80	94	equal	1.0	Benign	.
+.	chr17	14236763	C	T	14236753	14236765	-	1	upstream	AUG_Kozak	77	71	84	80	73	87	getting higher	1.0389610389610389	Benign	.
+.	chr17	14236764	G	A	14236753	14236765	-	0	upstream	AUG_Kozak	77	71	84	80	73	87	getting higher	1.0389610389610389	Benign	.
+rs2291037	chr17	21021210	G	A	21021209	21021221	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr17	29941799	G	A	29941790	29941802	+	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr17	30785998	A	G	30785987	30785999	-	0	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr17	31319014	G	A	31319007	31319019	-	4	upstream	AUG_Kozak	73	67	80	75	69	83	getting higher	1.0273972602739727	Benign	.
+rs117530048	chr17	32266187	G	A	32266183	32266195	+	3	upstream	AUG_Kozak	100	93	109	107	99	116	getting higher	1.07	Benign	.
+rs61743546	chr17	41189887	A	G	41189880	41189892	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs11551759	chr17	41586829	G	A	41586828	41586840	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr17	41830878	T	C	41830874	41830886	-	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1122326	chr17	42122855	A	C	42122844	42122856	+	10	missense	AUG_Kozak	58	54	63	47	43	51	getting lower	0.8103448275862069	Benign	.
+rs7222444	chr17	45430283	A	G	45430273	45430285	-	1	upstream	AUG_Kozak	114	106	123	117	109	126	getting higher	1.0263157894736843	Benign	.
+rs16940674	chr17	45833141	C	T	45833131	45833143	+	9	synonymous	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs16948970	chr17	50373175	T	G	50373164	50373176	-	0	upstream	AUG_Kozak	98	89	107	98	89	107	equal	1.0	Benign	.
+rs8073754	chr17	58540669	C	T	58540667	58540679	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr17	63873619	G	A	63873608	63873620	-	0	upstream	AUG_Kozak	115	107	124	121	111	131	getting higher	1.0521739130434782	Benign	.
+.	chr17	63918780	A	C	63918770	63918782	-	1	upstream	AUG_Kozak	115	106	124	115	106	124	equal	1.0	Benign	.
+rs62071423	chr17	64919454	C	T	64919447	64919459	-	4	upstream	AUG_Kozak	114	105	124	120	110	132	getting higher	1.0526315789473684	Benign	.
+rs9915416	chr17	72992919	G	A	72992917	72992929	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs9660	chr17	75042651	T	C	75042644	75042656	-	4	upstream	AUG_Kozak	111	102	121	107	98	117	getting lower	0.963963963963964	Benign	.
+rs34454308	chr17	75090289	C	T	75090284	75090296	+	4	upstream	AUG_Kozak	92	86	99	75	69	81	getting lower	0.8152173913043478	Benign	.
+rs35857535	chr17	75234701	T	C	75234697	75234709	+	3	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs8075276	chr17	75261905	C	T	75261894	75261906	+	10	missense	AUG_Kozak	104	95	112	81	75	88	getting lower	0.7788461538461539	Benign	.
+rs820150	chr17	75619882	T	C	75619872	75619884	+	9	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs73366180	chr17	75621078	C	T	75621068	75621080	+	9	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2290771	chr17	75848667	A	G	75848656	75848668	-	0	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs7217986	chr17	77373496	T	C	77373491	77373503	+	4	upstream	AUG_Kozak	91	84	99	74	68	80	getting lower	0.8131868131868132	Benign	.
+.	chr17	78122753	G	C	78122742	78122754	-	0	upstream	AUG_Kozak	112	103	122	112	103	122	equal	1.0	Benign	.
+.	chr17	79735540	C	G	79735534	79735546	+	5	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs59686903	chr17	83051746	C	T	83051745	83051757	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs115401521	chr18	5197058	T	C	5197047	5197059	-	0	upstream	AUG_Kozak	83	76	90	80	73	87	getting lower	0.963855421686747	Benign	.
+rs12455268	chr18	12686674	G	A	12686665	12686677	+	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs117090508	chr18	36187535	G	A	36187533	36187545	+	1	upstream	AUG_Kozak	102	94	111	116	107	126	getting higher	1.1372549019607843	Benign	.
+rs3744903	chr18	36730705	C	T	36730697	36730709	+	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr18	47035259	C	T	47035258	47035270	-	10	missense	AUG_Kozak	117	109	126	80	75	87	getting higher	0.6837606837606838	Benign	.
+rs79313911	chr18	50809403	A	G	50809394	50809406	-	2	upstream	AUG_Kozak	49	45	53	49	45	53	equal	1.0	Benign	.
+rs6566987	chr18	58611793	T	G	58611791	58611803	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs470797	chr18	76990028	G	A	76990017	76990029	-	0	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr19	619021	G	C	619010	619022	-	0	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1052696	chr19	1619349	G	A	1619341	1619353	-	3	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1052692	chr19	1619351	C	T	1619341	1619353	-	1	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs7250822	chr19	2255312	C	G	2255308	2255320	-	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr19	3762700	C	T	3762694	3762706	+	5	upstream	AUG_Kozak	123	114	133	121	112	130	getting lower	0.983739837398374	Benign	.
+.	chr19	3762700	C	T	3762698	3762710	+	1	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs75589928	chr19	6361570	G	A	6361568	6361580	+	1	upstream	AUG_Kozak	80	74	87	77	71	84	getting lower	0.9625	Benign	.
+rs7508518	chr19	7293887	G	C	7293885	7293897	-	9	missense	AUG_Kozak	105	97	114	71	65	77	getting higher	0.6761904761904762	Benign	.
+rs12972628	chr19	7733847	G	T	7733839	7733851	-	3	upstream	AUG_Kozak	81	75	87	67	62	73	getting lower	0.8271604938271605	Benign	.
+rs2232773	chr19	8308292	C	T	8308284	8308296	-	3	upstream	AUG_Kozak	73	67	79	40	37	43	getting lower	0.547945205479452	Benign	.
+rs968502	chr19	8502591	T	C	8502585	8502597	-	5	upstream	AUG_Kozak	92	85	101	92	85	101	equal	1.0	Benign	.
+rs28384491	chr19	9324196	C	T	9324190	9324202	+	5	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs281414	chr19	10339609	G	A	10339608	10339620	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr19	10829116	T	C	10829105	10829117	+	10	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1549168	chr19	11419282	C	T	11419272	11419284	-	1	upstream	AUG_Kozak	71	65	77	73	67	79	getting higher	1.028169014084507	Benign	.
+rs427880	chr19	11831547	A	G	11831536	11831548	+	10	missense	AUG_Kozak	82	76	88	76	71	82	getting lower	0.926829268292683	Benign	.
+rs10416541	chr19	13888377	C	T	13888374	13888386	-	8	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs16980212	chr19	15010495	C	G	15010484	15010496	-	0	upstream	AUG_Kozak	54	50	58	57	53	61	getting higher	1.0555555555555556	Benign	.
+rs2366057	chr19	15480241	A	G	15480236	15480248	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs11085991	chr19	15794043	G	A	15794042	15794054	+	0	upstream	AUG_Kozak	95	88	103	93	86	101	getting lower	0.9789473684210527	Benign	.
+rs17535005	chr19	17207209	G	A	17207206	17207218	+	2	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs436857	chr19	18086825	G	A	18086817	18086829	-	3	upstream	AUG_Kozak	68	63	73	84	78	91	getting higher	1.2352941176470589	Benign	.
+rs2241089	chr19	18173841	G	T	18173835	18173847	+	5	upstream	AUG_Kozak	103	95	111	100	93	109	getting lower	0.970873786407767	Benign	.
+rs1046565	chr19	18200389	A	G	18200382	18200394	-	4	upstream	AUG_Kozak	99	92	106	113	105	121	getting lower	1.1414141414141414	Benign	.
+.	chr19	18255302	C	G	18255301	18255313	-	10	missense	AUG_Kozak	122	113	133	105	97	113	getting lower	0.860655737704918	Benign	.
+.	chr19	19138429	G	A	19138422	19138434	-	4	upstream	AUG_Kozak	78	72	84	70	65	76	getting lower	0.8974358974358975	Benign	.
+rs73928352	chr19	35897657	G	C	35897650	35897662	-	4	upstream	AUG_Kozak	63	58	68	67	62	73	getting higher	1.0634920634920635	Benign	.
+rs11878547	chr19	35902284	T	C	35902277	35902289	-	4	upstream	AUG_Kozak	48	44	53	78	72	86	getting higher	1.625	Benign	.
+rs12461753	chr19	37711614	G	A	37711612	37711624	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2909097	chr19	37711615	A	C	37711612	37711624	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs73627654	chr19	38173647	C	A	38173637	38173649	+	9	missense	AUG_Kozak	61	56	67	92	85	101	getting higher	1.5081967213114753	Benign	.
+rs35136248	chr19	38426096	C	G	38426085	38426097	-	0	upstream	AUG_Kozak	89	82	97	89	82	97	equal	1.0	Benign	.
+.	chr19	40749595	C	G	40749588	40749600	-	4	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2302188	chr19	41579520	G	A	41579514	41579526	+	5	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs735571	chr19	41959295	C	T	41959286	41959298	-	2	upstream	AUG_Kozak	106	98	114	101	94	109	getting lower	0.9528301886792453	Benign	.
+rs3810381	chr19	43527172	C	T	43527171	43527183	-	10	missense	AUG_Kozak	97	90	104	73	67	78	getting lower	0.7525773195876289	Benign	.
+rs16976863	chr19	43880140	A	C	43880136	43880148	-	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs381983	chr19	43990063	T	C	43990058	43990070	+	4	upstream	AUG_Kozak	89	82	96	91	84	99	getting higher	1.0224719101123596	Benign	.
+.	chr19	45669519	C	G	45669514	45669526	+	4	upstream	AUG_Kozak	110	102	119	111	102	120	getting higher	1.009090909090909	Benign	.
+.	chr19	48933725	G	C	48933715	48933727	+	9	missense	AUG_Kozak	97	89	105	72	66	78	getting lower	0.7422680412371134	Benign	.
+rs11558800	chr19	49004285	A	G	49004282	49004294	+	2	upstream	AUG_Kozak	67	61	73	63	58	69	getting lower	0.9402985074626866	Benign	.
+.	chr19	49364656	G	A	49364648	49364660	+	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr19	51719927	A	G	51719922	51719934	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs4986773	chr19	51969042	A	G	51969032	51969044	-	1	upstream	AUG_Kozak	100	91	109	97	90	105	getting higher	0.97	Benign	.
+rs16983414	chr19	52067530	A	G	52067527	52067539	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs10402824	chr19	52618973	A	G	52618963	52618975	-	1	upstream	AUG_Kozak	100	91	109	97	90	105	getting higher	0.97	Benign	.
+rs867113539	chr19	54576073	T	A	54576065	54576077	+	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1486404698	chr19	54630960	C	A	54630959	54630971	+	0	upstream	AUG_Kozak	72	66	79	70	64	76	getting lower	0.9722222222222222	Benign	.
+rs605219	chr19	54816505	C	T	54816494	54816506	+	10	missense	AUG_Kozak	78	73	85	104	96	112	getting higher	1.3333333333333333	Benign	.
+rs1654455	chr19	55063035	C	G	55063026	55063038	-	2	upstream	AUG_Kozak	71	65	77	75	69	82	getting higher	1.056338028169014	Benign	.
+rs890871	chr19	55160687	A	G	55160683	55160695	-	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs11555784	chr19	55456481	C	T	55456480	55456492	-	10	missense	AUG_Kozak	120	111	130	82	76	89	getting higher	0.6833333333333333	Benign	.
+.	chr19	57500079	C	T	57500074	57500086	+	4	upstream	AUG_Kozak	113	105	122	104	96	112	getting lower	0.9203539823008849	Benign	.
+rs113758843	chr19	57630395	G	A	57630388	57630400	+	6	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs9749449	chr19	57633347	A	G	57633340	57633352	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr2	242800	T	C	242794	242806	-	5	upstream	AUG_Kozak	50	46	54	45	42	49	getting lower	0.9	Benign	.
+rs364891	chr2	6996936	A	G	6996933	6996945	+	2	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr2	10122793	T	G	10122792	10122804	+	0	upstream	AUG_Kozak	106	99	115	105	97	113	getting lower	0.9905660377358491	Benign	.
+.	chr2	15238684	C	G	15238680	15238692	-	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr2	23642390	T	C	23642385	23642397	+	4	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3213745	chr2	37231568	G	A	37231561	37231573	-	4	upstream	AUG_Kozak	97	89	106	99	91	108	getting higher	1.0206185567010309	Benign	.
+rs8545	chr2	39356305	A	G	39356298	39356310	-	4	upstream	AUG_Kozak	75	69	81	73	68	79	getting lower	0.9733333333333334	Benign	.
+rs4453725	chr2	69431994	A	T	69431989	69432001	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs11681642	chr2	70935956	T	C	70935948	70935960	+	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1050146	chr2	73901306	C	T	73901305	73901317	+	0	upstream	AUG_Kozak	89	82	96	90	83	97	getting higher	1.0112359550561798	Benign	.
+rs11677797	chr2	96894022	G	A	96894015	96894027	-	4	upstream	AUG_Kozak	81	75	88	74	69	80	getting lower	0.9135802469135802	Benign	.
+rs1062847	chr2	98609710	T	A	98609702	98609714	+	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr2	106468283	A	G	106468282	106468294	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs9646947	chr2	108247194	A	C	108247188	108247200	+	5	upstream	AUG_Kozak	113	104	122	98	90	106	getting lower	0.8672566371681416	Benign	.
+rs72936240	chr2	111856852	G	A	111856841	111856853	-	0	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs10176769	chr2	112055586	G	A	112055585	112055597	+	0	upstream	AUG_Kozak	81	75	88	87	81	94	getting higher	1.0740740740740742	Benign	.
+rs13021601	chr2	112433433	A	C	112433428	112433440	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs11545372	chr2	118013990	C	A	118013989	118014001	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1817097	chr2	130181775	G	A	130181765	130181777	+	9	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2278731	chr2	135638730	T	C	135638726	135638738	+	3	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2290368	chr2	151409959	T	C	151409949	151409961	+	9	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr2	152717636	G	A	152717625	152717637	-	0	upstream	AUG_Kozak	84	76	92	87	80	96	getting higher	1.0357142857142858	Benign	.
+rs3820952	chr2	169694329	A	G	169694321	169694333	-	3	upstream	AUG_Kozak	93	86	101	83	77	90	getting lower	0.8924731182795699	Benign	.
+rs719161	chr2	174395627	G	T	174395616	174395628	-	0	upstream	AUG_Kozak	101	93	109	101	93	109	equal	1.0	Benign	.
+rs291466	chr2	190319749	A	G	190319744	190319756	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs13412879	chr2	190534652	C	G	190534649	190534661	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr2	196156648	T	A	196156641	196156653	-	4	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs17383109	chr2	200858104	C	A	200858100	200858112	-	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2241133	chr2	201642630	G	C	201642620	201642632	-	1	upstream	AUG_Kozak	112	104	121	105	97	115	getting lower	0.9375	Benign	.
+rs4234080	chr2	207624377	C	A	207624369	207624381	-	3	upstream	AUG_Kozak	119	110	128	118	110	128	getting lower	0.9915966386554622	Benign	.
+rs2292554	chr2	218282145	T	C	218282135	218282147	-	1	upstream	AUG_Kozak	79	73	86	79	73	86	equal	1.0	Benign	.
+rs3795985	chr2	218400673	C	T	218400671	218400683	+	1	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr2	219038536	T	G	219038530	219038542	-	5	upstream	AUG_Kozak	92	85	100	95	88	103	getting higher	1.0326086956521738	Benign	.
+rs2293072	chr2	219180732	G	A	219180729	219180741	+	2	upstream	AUG_Kozak	88	81	96	104	96	113	getting higher	1.1818181818181819	Benign	.
+rs11552796	chr2	219243578	T	C	219243567	219243579	-	0	upstream	AUG_Kozak	98	91	107	106	97	114	getting lower	1.0816326530612246	Benign	.
+rs6736979	chr2	219309334	T	C	219309326	219309338	-	3	upstream	AUG_Kozak	79	72	86	73	68	79	getting lower	0.9240506329113924	Benign	.
+.	chr2	222656078	T	G	222656067	222656079	-	0	upstream	AUG_Kozak	81	74	87	77	71	83	getting lower	0.9506172839506173	Benign	.
+rs2228558	chr2	227147485	G	A	227147477	227147489	-	3	upstream	AUG_Kozak	87	80	94	95	88	103	getting higher	1.0919540229885059	Benign	.
+rs4973318	chr2	230357960	T	C	230357952	230357964	+	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2293338	chr2	232574076	G	A	232574067	232574079	+	8	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs11555646	chr2	232735194	A	C	232735191	232735203	+	2	upstream	AUG_Kozak	98	89	108	111	103	121	getting higher	1.1326530612244898	Benign	.
+.	chr2	236241523	A	C	236241514	236241526	-	2	upstream	AUG_Kozak	79	74	86	79	74	86	equal	1.0	Benign	.
+rs58256353	chr2	237540862	C	T	237540858	237540870	+	3	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3751112	chr2	237586099	A	G	237586093	237586105	-	5	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs11541494	chr2	240025297	G	C	240025295	240025307	-	9	missense	AUG_Kozak	105	97	114	74	68	80	getting higher	0.7047619047619048	Benign	.
+.	chr2	240895962	G	A	240895961	240895973	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2286323	chr2	241097382	A	G	241097377	241097389	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2074828	chr2	241139592	A	G	241139589	241139601	-	8	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2235587	chr20	1135276	A	G	1135271	1135283	+	4	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs71647828	chr20	3889432	T	A	3889424	3889436	+	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs6075630	chr20	20169383	C	T	20169372	20169384	+	10	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs9653615	chr20	46070254	G	A	46070253	46070265	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1883832	chr20	46118343	T	C	46118337	46118349	+	5	upstream	AUG_Kozak	76	71	82	75	69	80	getting lower	0.9868421052631579	Benign	.
+rs2020975	chr20	54058720	G	T	54058712	54058724	-	3	upstream	AUG_Kozak	100	93	108	111	103	120	getting higher	1.11	Benign	.
+rs6090405	chr20	62709206	C	T	62709201	62709213	+	4	upstream	AUG_Kozak	86	79	94	93	85	102	getting higher	1.0813953488372092	Benign	.
+rs927081	chr20	63249944	A	G	63249934	63249946	-	1	upstream	AUG_Kozak	69	63	75	72	67	77	getting higher	1.0434782608695652	Benign	.
+rs7281104	chr21	14546256	G	C	14546255	14546267	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2298682	chr21	37072590	A	G	37072581	37072593	-	2	upstream	AUG_Kozak	75	70	81	60	55	65	getting lower	0.8	Benign	.
+.	chr21	39280216	G	A	39280207	39280219	-	2	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs61735797	chr21	41922002	G	A	41921992	41922004	-	1	upstream	AUG_Kozak	85	78	92	85	78	92	equal	1.0	Benign	.
+.	chr21	42366497	G	A	42366489	42366501	-	3	upstream	AUG_Kozak	117	108	127	109	101	118	getting lower	0.9316239316239316	Benign	.
+rs7671	chr21	45981846	C	G	45981844	45981856	+	1	upstream	AUG_Kozak	84	78	91	86	80	93	getting higher	1.0238095238095237	Benign	.
+.	chr22	21975710	T	C	21975703	21975715	-	4	upstream	AUG_Kozak	92	85	100	89	82	96	getting lower	0.967391304347826	Benign	.
+rs11089977	chr22	22244803	A	G	22244796	22244808	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs11089978	chr22	22244804	T	C	22244796	22244808	+	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr22	22646341	A	G	22646339	22646351	+	1	upstream	AUG_Kozak	104	96	112	99	92	108	getting lower	0.9519230769230769	Benign	.
+rs35211242	chr22	23140296	G	A	23140294	23140306	-	9	Error in annotation	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs541443735	chr22	24005351	T	G	24005350	24005362	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr22	32479203	G	A	32479194	32479206	+	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs132642	chr22	36149089	A	T	36149084	36149096	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr22	36202035	A	T	36202030	36202042	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs13055343	chr22	37609137	T	C	37609129	37609141	+	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs12403	chr22	37675700	A	G	37675696	37675708	+	3	upstream	AUG_Kozak	119	110	130	120	112	130	getting higher	1.0084033613445378	Benign	.
+rs2072800	chr22	38699982	A	G	38699981	38699993	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs73888833	chr22	44069156	C	T	44069155	44069167	+	0	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs149572735	chr22	45009552	C	T	45009543	45009555	-	2	upstream	AUG_Kozak	78	72	84	77	72	84	getting lower	0.9871794871794872	Benign	.
+rs3810633	chr22	45502237	T	C	45502231	45502243	+	5	upstream	AUG_Kozak	102	95	110	96	89	104	getting lower	0.9411764705882353	Benign	.
+.	chr22	46248280	G	A	46248278	46248290	-	9	missense	AUG_Kozak	104	97	112	84	78	91	getting higher	0.8076923076923077	Benign	.
+.	chr22	50697562	T	C	50697558	50697570	+	3	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1485435781	chr22	50697569	C	G	50697558	50697570	+	10	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2271566	chr3	4979718	C	T	4979712	4979724	+	5	upstream	AUG_Kozak	65	61	71	69	64	74	getting higher	1.0615384615384615	Benign	.
+rs12715649	chr3	8514931	A	G	8514929	8514941	+	1	upstream	AUG_Kozak	81	75	87	80	75	87	getting lower	0.9876543209876543	Benign	.
+rs9826066	chr3	10449546	T	C	10449537	10449549	-	2	upstream	AUG_Kozak	84	77	92	83	77	90	getting lower	0.9880952380952381	Benign	.
+rs2255648	chr3	12557464	A	G	12557460	12557472	+	3	upstream	AUG_Kozak	83	77	90	70	65	76	getting lower	0.8433734939759037	Benign	.
+.	chr3	13570350	T	C	13570349	13570361	+	0	upstream	AUG_Kozak	74	69	80	75	69	82	getting higher	1.0135135135135136	Benign	.
+.	chr3	27202554	G	A	27202550	27202562	-	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs112766131	chr3	36380643	G	A	36380637	36380649	+	5	upstream	AUG_Kozak	107	99	115	103	96	112	getting lower	0.9626168224299065	Benign	.
+.	chr3	44651072	C	G	44651061	44651073	+	10	missense	AUG_Kozak	109	100	118	87	81	94	getting lower	0.7981651376146789	Benign	.
+.	chr3	46407673	G	A	46407664	46407676	+	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2276817	chr3	52826920	C	T	52826911	52826923	-	2	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr3	53882103	A	G	53882095	53882107	-	3	upstream	AUG_Kozak	97	90	105	91	84	99	getting lower	0.9381443298969072	Benign	.
+rs40610	chr3	64023832	T	C	64023829	64023841	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr3	72446626	C	G	72446615	72446627	-	0	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3772888	chr3	81743579	G	A	81743570	81743582	-	2	upstream	AUG_Kozak	65	60	71	77	71	83	getting higher	1.1846153846153846	Benign	.
+rs2279720	chr3	87227549	C	T	87227547	87227559	+	1	upstream	AUG_Kozak	32	29	34	31	29	33	getting lower	0.96875	Benign	.
+.	chr3	109337516	A	G	109337511	109337523	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1130459	chr3	133746439	A	G	133746434	133746446	+	4	upstream	AUG_Kozak	85	78	93	83	77	91	getting lower	0.9764705882352941	Benign	.
+rs2279856	chr3	143973176	C	G	143973174	143973186	+	1	upstream	AUG_Kozak	59	55	64	51	47	55	getting lower	0.864406779661017	Benign	.
+rs3804769	chr3	155853486	T	C	155853485	155853497	-	10	Error in annotation	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr3	184100628	G	A	184100624	184100636	+	3	upstream	AUG_Kozak	82	76	89	88	81	95	getting higher	1.0731707317073171	Benign	.
+.	chr3	194653103	T	C	194653096	194653108	-	4	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr3	194653104	G	A	194653096	194653108	-	3	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3828408	chr3	195726372	C	T	195726363	195726375	+	8	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs7639719	chr3	196711955	G	T	196711947	196711959	-	3	upstream	AUG_Kozak	86	79	94	64	59	69	getting lower	0.7441860465116279	Benign	.
+rs200291490	chr4	1237524	T	C	1237516	1237528	-	3	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2302469	chr4	15686981	G	C	15686971	15686983	+	9	missense	AUG_Kozak	79	73	86	111	102	120	getting higher	1.4050632911392404	Benign	.
+rs6448102	chr4	21948636	A	G	21948625	21948637	-	0	upstream	AUG_Kozak	94	87	101	92	86	100	getting lower	0.9787234042553191	Benign	.
+.	chr4	37665354	C	G	37665347	37665359	-	4	upstream	AUG_Kozak	64	59	70	35	32	38	getting lower	0.546875	Benign	.
+rs10856838	chr4	38775552	A	T	38775542	38775554	-	1	upstream	AUG_Kozak	80	74	86	80	74	86	equal	1.0	Benign	.
+rs3747690	chr4	48986433	C	A	48986423	48986435	+	9	missense	AUG_Kozak	68	63	74	100	93	109	getting higher	1.4705882352941178	Benign	.
+rs1351514	chr4	53365943	G	A	53365935	53365947	-	3	upstream	AUG_Kozak	93	85	101	93	85	101	equal	1.0	Benign	.
+.	chr4	67946565	C	T	67946558	67946570	-	4	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs977728	chr4	67963391	C	T	67963387	67963399	-	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3756132	chr4	70196539	C	T	70196537	70196549	+	1	upstream	AUG_Kozak	104	96	113	97	89	106	getting lower	0.9326923076923077	Benign	.
+rs2227538	chr4	73740658	C	T	73740652	73740664	+	5	upstream	AUG_Kozak	87	80	95	95	88	103	getting higher	1.0919540229885059	Benign	.
+rs6858658	chr4	75873192	T	G	75873189	75873201	-	8	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs4859572	chr4	75936235	C	T	75936224	75936236	-	0	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs28592243	chr4	90308279	T	G	90308278	90308290	+	0	upstream	AUG_Kozak	105	97	113	96	89	104	getting lower	0.9142857142857143	Benign	.
+.	chr4	98928975	A	G	98928966	98928978	-	2	upstream	AUG_Kozak	60	55	66	45	42	49	getting lower	0.75	Benign	.
+.	chr4	105897896	G	A	105897894	105897906	+	1	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs34961213	chr4	106235305	C	T	106235301	106235313	-	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1131239	chr4	121696590	G	A	121696583	121696595	-	4	upstream	AUG_Kozak	96	89	103	101	94	109	getting lower	1.0520833333333333	Benign	.
+.	chr4	148436862	G	C	148436854	148436866	-	3	upstream	AUG_Kozak	77	71	83	68	63	73	getting lower	0.8831168831168831	Benign	.
+rs73002706	chr4	183651065	G	A	183651055	183651067	-	1	upstream	AUG_Kozak	96	88	104	96	89	105	equal	1.0	Benign	.
+rs113604435	chr4	183663862	G	A	183663861	183663873	+	0	upstream	AUG_Kozak	74	69	81	82	75	89	getting higher	1.1081081081081081	Benign	.
+rs13139393	chr4	188105370	C	G	188105362	188105374	-	3	upstream	AUG_Kozak	90	83	98	83	76	90	getting lower	0.9222222222222223	Benign	.
+rs58960904	chr5	92226	T	G	92225	92237	+	0	upstream	AUG_Kozak	98	90	106	89	82	96	getting lower	0.9081632653061225	Benign	.
+rs1809932	chr5	766918	A	C	766913	766925	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3863148	chr5	843608	C	A	843599	843611	-	2	upstream	AUG_Kozak	90	83	98	90	83	98	equal	1.0	Benign	.
+rs267927	chr5	10761070	A	G	10761062	10761074	-	3	upstream	AUG_Kozak	88	82	95	88	82	95	equal	1.0	Benign	.
+.	chr5	14871451	C	T	14871441	14871453	-	1	upstream	AUG_Kozak	77	71	83	82	76	89	getting higher	1.0649350649350648	Benign	.
+rs2279516	chr5	53560674	G	C	53560668	53560680	+	5	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs35248526	chr5	55766928	G	A	55766923	55766935	+	4	upstream	AUG_Kozak	113	104	123	108	99	117	getting lower	0.9557522123893806	Benign	.
+rs9176	chr5	74636490	T	C	74636479	74636491	-	0	upstream	AUG_Kozak	83	76	90	89	82	96	getting higher	1.072289156626506	Benign	.
+rs13161802	chr5	96529822	G	A	96529814	96529826	+	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr5	119356089	T	C	119356084	119356096	+	4	upstream	AUG_Kozak	128	119	139	120	111	129	getting lower	0.9375	Benign	.
+rs11538394	chr5	140194465	G	A	140194459	140194471	+	5	upstream	AUG_Kozak	88	81	96	94	86	102	getting higher	1.0681818181818181	Benign	.
+rs28664170	chr5	141183598	G	T	141183597	141183609	+	0	upstream	AUG_Kozak	83	77	90	88	81	96	getting higher	1.0602409638554218	Benign	.
+rs1862875	chr5	167755050	G	A	167755047	167755059	+	2	upstream	AUG_Kozak	69	64	74	69	64	75	equal	1.0	Benign	.
+rs1801020	chr5	177409531	A	G	177409521	177409533	-	1	upstream	AUG_Kozak	84	77	91	81	75	88	getting lower	0.9642857142857143	Benign	.
+rs705441	chr5	180851393	C	G	180851389	180851401	-	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2295769	chr6	2955568	T	C	2955562	2955574	-	5	upstream	AUG_Kozak	131	121	142	114	105	123	getting lower	0.8702290076335878	Benign	.
+rs3812179	chr6	4715782	A	G	4715772	4715784	+	9	missense	AUG_Kozak	37	34	41	52	48	57	getting higher	1.4054054054054055	Benign	.
+rs12194843	chr6	20212238	G	A	20212228	20212240	-	1	upstream	AUG_Kozak	124	115	134	116	107	126	getting lower	0.9354838709677419	Benign	.
+rs2076316	chr6	24489513	A	C	24489505	24489517	-	3	upstream	AUG_Kozak	96	89	104	82	75	88	getting lower	0.8541666666666666	Benign	.
+.	chr6	25849392	A	G	25849388	25849400	-	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr6	26240421	C	T	26240419	26240431	+	1	upstream	AUG_Kozak	96	89	104	95	88	103	getting lower	0.9895833333333334	Benign	.
+rs35183513	chr6	26370520	G	A	26370512	26370524	+	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs9261470	chr6	30137031	G	A	30137030	30137042	+	0	upstream	AUG_Kozak	96	88	104	89	81	97	getting lower	0.9270833333333334	Benign	.
+.	chr6	31357154	A	C	31357152	31357164	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs114811870	chr6	31357161	C	T	31357152	31357164	-	2	upstream	AUG_Kozak	91	84	98	85	79	92	getting lower	0.9340659340659341	Benign	.
+.	chr6	31529014	C	G	31529008	31529020	+	5	upstream	AUG_Kozak	69	63	75	73	67	79	getting higher	1.0579710144927537	Benign	.
+.	chr6	31878964	C	A	31878961	31878973	-	8	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr6	31932476	T	C	31932468	31932480	+	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1800684	chr6	32184217	A	T	32184216	32184228	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs28383345	chr6	32637457	G	A	32637452	32637464	+	4	upstream	AUG_Kozak	85	78	92	101	93	110	getting higher	1.188235294117647	Benign	.
+.	chr6	32666610	C	T	32666601	32666613	-	2	upstream	AUG_Kozak	88	81	95	76	71	82	getting lower	0.8636363636363636	Benign	.
+rs147432782	chr6	32741442	A	G	32741437	32741449	+	4	upstream	AUG_Kozak	101	93	110	85	78	92	getting lower	0.8415841584158416	Benign	.
+.	chr6	33009538	A	G	33009530	33009542	-	3	upstream	AUG_Kozak	114	106	123	114	106	123	equal	1.0	Benign	.
+rs3748050	chr6	35797291	T	C	35797282	35797294	-	2	upstream	AUG_Kozak	79	73	85	79	73	85	equal	1.0	Benign	.
+rs2273917	chr6	43040560	C	T	43040559	43040571	-	10	Error in annotation	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs73436429	chr6	43076882	A	G	43076877	43076889	+	4	upstream	AUG_Kozak	96	89	104	83	76	90	getting lower	0.8645833333333334	Benign	.
+.	chr6	52403210	T	G	52403207	52403219	+	2	upstream	AUG_Kozak	96	89	105	103	95	112	getting higher	1.0729166666666667	Benign	.
+rs1234532038	chr6	57532411	T	C	57532404	57532416	+	6	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs79100944	chr6	63211551	G	A	63211550	63211562	+	0	upstream	AUG_Kozak	81	75	87	87	80	94	getting higher	1.0740740740740742	Benign	.
+rs6927398	chr6	73225412	G	C	73225402	73225414	-	1	upstream	AUG_Kozak	107	99	116	112	103	122	getting higher	1.0467289719626167	Benign	.
+rs2294763	chr6	97064701	A	G	97064698	97064710	+	2	upstream	AUG_Kozak	26	24	29	17	16	19	getting lower	0.6538461538461539	Benign	.
+rs9376137	chr6	99394180	C	A	99394173	99394185	-	4	upstream	AUG_Kozak	77	72	83	78	73	84	getting higher	1.0129870129870129	Benign	.
+rs1049274273	chr6	106975455	G	T	106975453	106975465	-	9	Error in annotation	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr6	109381573	G	A	109381570	109381582	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs714368	chr6	110456925	T	C	110456916	110456928	-	2	upstream	AUG_Kozak	105	97	113	105	97	113	equal	1.0	Benign	.
+rs1327475	chr6	137215318	G	A	137215315	137215327	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1044418	chr6	138908735	C	T	138908731	138908743	-	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3799133	chr6	152994786	G	A	152994785	152994797	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs6557351	chr6	154442267	G	A	154442260	154442272	-	4	upstream	AUG_Kozak	85	79	92	85	79	92	equal	1.0	Benign	.
+rs2272375	chr7	983377	C	T	983373	983385	+	3	upstream	AUG_Kozak	74	68	80	57	53	62	getting lower	0.7702702702702703	Benign	.
+rs798488	chr7	2762888	T	C	2762882	2762894	-	5	upstream	AUG_Kozak	116	108	126	108	99	117	getting lower	0.9310344827586207	Benign	.
+rs34603556	chr7	20651424	T	C	20651416	20651428	+	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr7	23712117	A	G	23712111	23712123	+	5	upstream	AUG_Kozak	76	70	82	73	68	79	getting lower	0.9605263157894737	Benign	.
+.	chr7	24719134	C	T	24719124	24719136	-	1	upstream	AUG_Kozak	116	107	126	117	107	128	getting higher	1.0086206896551724	Benign	.
+rs670573	chr7	43866914	A	G	43866911	43866923	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs73692834	chr7	47812025	C	T	47812024	47812036	-	10	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2708912	chr7	48046480	C	T	48046469	48046481	+	10	missense	AUG_Kozak	69	64	75	66	61	72	getting lower	0.9565217391304348	Benign	.
+rs1404563	chr7	55562030	A	G	55562021	55562033	-	2	upstream	AUG_Kozak	70	65	76	64	59	69	getting lower	0.9142857142857143	Benign	.
+.	chr7	56021209	C	T	56021206	56021218	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr7	56021214	G	C	56021206	56021218	-	3	upstream	AUG_Kozak	82	75	88	69	64	75	getting lower	0.8414634146341463	Benign	.
+rs201958642	chr7	56021215	C	T	56021206	56021218	-	2	upstream	AUG_Kozak	82	75	88	79	73	86	getting lower	0.9634146341463414	Benign	.
+rs3735260	chr7	69599651	A	G	69599647	69599659	+	3	upstream	AUG_Kozak	74	68	80	76	70	82	getting higher	1.027027027027027	Benign	.
+rs114462308	chr7	75994575	G	A	75994564	75994576	-	0	upstream	AUG_Kozak	109	100	118	105	97	114	getting lower	0.963302752293578	Benign	.
+.	chr7	87600185	T	C	87600178	87600190	-	4	upstream	AUG_Kozak	81	75	88	71	66	77	getting lower	0.8765432098765432	Benign	.
+rs42637	chr7	90340517	A	G	90340512	90340524	+	4	upstream	AUG_Kozak	54	50	58	44	41	48	getting lower	0.8148148148148148	Benign	.
+rs11767691	chr7	90709536	C	T	90709535	90709547	+	0	upstream	AUG_Kozak	49	46	53	51	47	55	getting higher	1.0408163265306123	Benign	.
+rs10270045	chr7	98212306	G	C	98212303	98212315	+	2	upstream	AUG_Kozak	82	75	89	82	76	89	equal	1.0	Benign	.
+.	chr7	100969617	C	T	100969616	100969628	+	0	upstream	AUG_Kozak	83	76	90	83	77	90	equal	1.0	Benign	.
+rs80153920	chr7	116695757	A	T	116695750	116695762	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr7	128672396	C	T	128672391	128672403	+	4	upstream	AUG_Kozak	79	73	86	74	68	80	getting lower	0.9367088607594937	Benign	.
+rs2287371	chr7	130440971	T	G	130440960	130440972	-	0	upstream	AUG_Kozak	85	78	93	85	78	93	equal	1.0	Benign	.
+.	chr7	138771243	A	G	138771241	138771253	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr7	142750660	G	T	142750658	142750670	+	1	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs4987667	chr7	142875155	T	C	142875149	142875161	-	5	upstream	AUG_Kozak	90	84	98	90	84	98	equal	1.0	Benign	.
+rs199737005	chr8	12138761	G	A	12138754	12138766	-	4	upstream	AUG_Kozak	69	64	74	69	64	74	equal	1.0	Benign	.
+rs13259948	chr8	17538871	G	A	17538863	17538875	+	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2280444	chr8	19319592	A	G	19319583	19319595	+	8	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs11550509	chr8	22669046	G	A	22669045	22669057	-	10	missense	AUG_Kozak	82	76	89	90	82	97	getting higher	1.0975609756097562	Benign	.
+rs78886842	chr8	22994583	G	A	22994577	22994589	+	5	upstream	AUG_Kozak	99	92	107	105	97	113	getting higher	1.0606060606060606	Benign	.
+.	chr8	26383130	A	G	26383124	26383136	+	5	upstream	AUG_Kozak	86	79	93	87	80	94	getting higher	1.0116279069767442	Benign	.
+rs41507953	chr8	27500988	A	G	27500977	27500989	+	10	missense	AUG_Kozak	40	36	43	42	39	46	getting higher	1.05	Benign	.
+rs827528	chr8	103300204	A	G	103300197	103300209	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs6995597	chr8	103372552	A	G	103372545	103372557	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2959023	chr8	104466921	A	G	104466914	104466926	-	4	upstream	AUG_Kozak	117	108	126	132	122	142	getting higher	1.1282051282051282	Benign	.
+.	chr8	141136609	T	C	141136601	141136613	+	7	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs6558339	chr8	143249842	T	C	143249837	143249849	+	4	upstream	AUG_Kozak	81	74	88	74	68	80	getting lower	0.9135802469135802	Benign	.
+rs1062391	chr8	143580183	G	A	143580182	143580194	-	10	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs115637224	chr8	144416204	A	G	144416202	144416214	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs2306386	chr8	144517495	T	C	144517493	144517505	-	9	Error in annotation	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs10964468	chr9	2029018	G	A	2029016	2029028	+	1	upstream	AUG_Kozak	66	61	71	68	63	74	getting higher	1.0303030303030303	Benign	.
+rs17810415	chr9	19032909	A	G	19032902	19032914	-	4	upstream	AUG_Kozak	82	75	89	69	64	75	getting lower	0.8414634146341463	Benign	.
+rs1800866	chr9	34637693	T	G	34637691	34637703	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3739610	chr9	36169497	G	A	36169496	36169508	+	0	upstream	AUG_Kozak	91	85	99	93	86	101	getting higher	1.021978021978022	Benign	.
+rs773328259	chr9	41188050	A	C	41188049	41188061	-	10	missense	AUG_Kozak	83	76	91	67	61	74	getting lower	0.8072289156626506	Benign	.
+.	chr9	42129091	C	A	42129088	42129100	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs1333342	chr9	74887244	G	A	74887242	74887254	-	9	Error in annotation	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr9	83623171	T	C	83623165	83623177	+	5	upstream	AUG_Kozak	94	87	102	107	99	116	getting higher	1.1382978723404256	Benign	.
+rs690528	chr9	95876006	A	G	95875999	95876011	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr9	97697296	T	C	97697286	97697298	-	1	upstream	AUG_Kozak	108	99	117	108	99	117	equal	1.0	Benign	.
+rs41304943	chr9	104536720	C	A	104536717	104536729	-	8	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs17728850	chr9	108855929	A	G	108855924	108855936	-	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chr9	109167140	C	G	109167132	109167144	-	3	upstream	AUG_Kozak	99	91	107	113	104	122	getting lower	1.1414141414141414	Benign	.
+.	chr9	109167141	G	C	109167132	109167144	-	2	upstream	AUG_Kozak	99	91	107	101	93	110	getting lower	1.02020202020202	Benign	.
+.	chr9	120579981	C	A	120579972	120579984	-	2	upstream	AUG_Kozak	105	98	114	105	98	114	equal	1.0	Benign	.
+rs522328	chr9	127712732	T	C	127712731	127712743	+	0	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs12336255	chr9	130265876	G	A	130265872	130265884	+	3	upstream	AUG_Kozak	81	75	87	92	85	99	getting higher	1.1358024691358024	Benign	.
+.	chr9	133346666	C	T	133346656	133346668	-	1	upstream	AUG_Kozak	112	103	121	111	102	121	getting lower	0.9910714285714286	Benign	.
+rs17514136	chr9	134880818	A	G	134880815	134880827	+	2	upstream	AUG_Kozak	79	73	85	83	77	90	getting higher	1.0506329113924051	Benign	.
+rs115453697	chr9	137070465	G	A	137070454	137070466	-	0	upstream	AUG_Kozak	109	101	119	110	101	120	getting higher	1.0091743119266054	Benign	.
+rs7032361	chr9	137205772	A	G	137205771	137205783	+	0	upstream	AUG_Kozak	64	58	70	65	60	71	getting higher	1.015625	Benign	.
+rs56222159	chr9	137217995	C	T	137217990	137218002	+	4	upstream	AUG_Kozak	69	64	76	80	73	87	getting higher	1.1594202898550725	Benign	.
+rs7389591	chr9	137225120	C	T	137225115	137225127	+	4	upstream	AUG_Kozak	90	83	98	103	96	112	getting higher	1.1444444444444444	Benign	.
+rs117554356	chr9	137423527	G	T	137423523	137423535	+	3	upstream	AUG_Kozak	91	84	99	115	106	124	getting higher	1.2637362637362637	Benign	.
+rs112864733	chr9	137423547	C	G	137423543	137423555	+	3	upstream	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs3764880	chrX	12906707	A	G	12906700	12906712	+	6	no_start	AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs142577574	chrX	46759030	G	A	46759023	46759035	-	4	upstream	AUG_Kozak	72	66	78	76	70	82	getting higher	1.0555555555555556	Benign	.
+rs147035080	chrX	54495436	C	G	54495426	54495438	-	1	upstream	AUG_Kozak	101	93	110	101	93	110	equal	1.0	Benign	.
+rs5913791	chrX	55160988	G	A	55160979	55160991	-	2	upstream	AUG_Kozak	88	81	95	106	98	114	getting lower	1.2045454545454546	Benign	.
+.	chrX	55220597	C	G	55220593	55220605	+	3	upstream	AUG_Kozak	100	92	108	109	101	117	getting higher	1.09	Benign	.
+rs11093377	chrX	72572062	C	T	72572055	72572067	-	4	upstream	AUG_Kozak	74	68	80	62	58	68	getting lower	0.8378378378378378	Benign	.
+rs6616255	chrX	101552926	A	G	101552924	101552936	+	1	upstream	AUG_Kozak	103	95	111	108	100	116	getting higher	1.0485436893203883	Benign	.
+rs7066708	chrX	112454726	A	G	112454722	112454734	+	3	upstream	AUG_Kozak	82	76	89	80	74	86	getting lower	0.975609756097561	Benign	.
+rs217976	chrX	119399403	G	A	119399397	119399409	+	5	upstream	AUG_Kozak	119	110	128	129	119	139	getting higher	1.084033613445378	Benign	.
+.	chrX	119565357	A	G	119565349	119565361	-	3	upstream	AUG_Kozak	81	74	88	79	73	86	getting lower	0.9753086419753086	Benign	.
+rs5932877	chrX	131282984	C	T	131282982	131282994	-	9	Error in annotation	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chrX	136879428	G	T	136879421	136879433	-	4	upstream	AUG_Kozak	70	64	77	78	71	86	getting higher	1.1142857142857143	Benign	.
+.	chrX	136879428	G	T	136879425	136879437	-	8	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs6627085	chrX	145247584	A	G	145247580	145247592	+	3	upstream	AUG_Kozak	88	81	96	88	81	94	equal	1.0	Benign	.
+rs25707	chrX	147928802	G	A	147928799	147928811	+	2	upstream	AUG_Kozak	78	72	85	95	88	102	getting higher	1.2179487179487178	Benign	.
+rs3810715	chrX	151716148	C	T	151716137	151716149	+	10	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+.	chrX	152759368	A	T	152759364	152759376	+	3	upstream	AUG_Kozak	95	88	102	73	68	79	getting lower	0.7684210526315789	Benign	.
+rs73245857	chrX	153320678	C	T	153320668	153320680	-	1	upstream	AUG_Kozak	88	81	95	88	81	95	equal	1.0	Benign	.
+rs200831546	chrX	153784705	A	C	153784697	153784709	+	7	no_start	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
+rs201480778	chrX	153784707	A	C	153784697	153784709	+	9	missense	not_AUG_Kozak	.	.	.	.	.	.	.	.	Benign	.
