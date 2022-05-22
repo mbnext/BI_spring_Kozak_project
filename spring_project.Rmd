@@ -206,6 +206,10 @@ dev.off()
 jpeg(file="plot_F_09.jpeg")
 plot_F_09
 dev.off()
+
+jpeg(file="plot_F_09_notAUG.jpeg")
+plot_F_09_notAUG
+dev.off()
 ```
 
 ## "Upstream+synonymous" subset
