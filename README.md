@@ -172,30 +172,34 @@ Total number of the sequences and variants during the pipeline:
 
 We can see that only a few variants have significant effect of the mutation. The suspicious facts are that a lot of 'not_AUG_Kozak' sequences were in the extracted from the genome Kozak set, and the second fact is that about 500 variants from gnomAD was intersected (from about 8000000 of SNP), it seems to be too small number (maybe there is a mistake somewhere). 
 
-![plot_F_04](https://user-images.githubusercontent.com/34398217/169671046-ad880837-115d-433f-9c24-a6aa4acddca7.jpeg)
+
+![plot_F_04](https://user-images.githubusercontent.com/34398217/169703893-dd993030-71f5-4a46-8b79-37c95367b439.jpeg)
 
 **Fig. 1. Distribution of the annotation types among the 2657 variants of known pathogenicity (AUG + not_AUG Kozak's)**
 
 
-![plot_F_09](https://user-images.githubusercontent.com/34398217/169671069-98c84317-50b9-4d0f-83fe-80ead0995049.jpeg)
+![plot_F_09](https://user-images.githubusercontent.com/34398217/169703902-68348e85-e821-40c9-968b-f5659cd2ccdf.jpeg)
 
-**Fig. 2. Distribution of the annotation types among the 2657 variants of known pathogenicity in AUG Kozak's**
+**Fig. 2. Distribution of the annotation types among the 1984 variants of known pathogenicity in AUG Kozak's**
 
 
-![plot_F_19](https://user-images.githubusercontent.com/34398217/169671131-23b6726b-2426-4c49-9c32-4fd2a06c92fa.jpeg)
+![plot_F_19](https://user-images.githubusercontent.com/34398217/169703919-a5cf8add-64ce-4980-8c33-c8f7369bfb8a.jpeg)
 
 **Fig. 3. Ref. and Alt. Kozak sequences efficiencies for pathogenic and benign variants (for 92 ‘significant’ variants)**
 
 
-![plot_F_20](https://user-images.githubusercontent.com/34398217/169671137-bd6ba92a-4755-460a-9e65-cf714f7d173e.jpeg)
+![plot_F_22](https://user-images.githubusercontent.com/34398217/169704014-d0ab97c6-dbac-4040-81dd-e45f290017a1.jpeg)
 
-**Fig. 4. Distributions of Ref. and Alt. Kozak sequences  for pathogenic and benign variants according to the variant position in upstream Kozak sequence (for 92 ‘significant’ variants)** 
-0 is ‘-6’ position, 1 is ‘-5’, etc.
+
+**Fig. 4. Distribution of relative efficiencies (Alt.Eff/Ref.Eff.) of Kozak sequences  for pathogenic and benign variants according to the variant position in upstream Kozak sequence (for 92 ‘significant’ variants)** 
+0 is ‘-6’ position, 1 is ‘-5’, etc. 
+One outlier (near 4) was deleted from the plot
+
 
 More plots are in the file **spring_project.html**
 
 ## Conclusions
-According to performed analysis, there are no significant differences in the predicted translation efficiency of the reference and alternative Kozak sequences referred as benign or pathogenic
+According to performed analysis, there are no significant differences in the predicted translation efficiency of the reference and alternative Kozak sequences referred as benign or pathogenic (but the particular position can be significant).
 
 ## Future plans
 1. Fix the bugs:
