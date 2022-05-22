@@ -173,6 +173,20 @@ plot_F_09 <- ggplot(kozak_dataset_short_AUG)+
   xlab("Variant annotation")
 plot_F_09
 
+# additional plot for 'not_AUG_Kozak' 
+
+plot_F_09_notAUG <- ggplot(kozak_dataset_short[kozak_dataset_short$Kozak_type == 'not_AUG_Kozak', ])+
+  geom_histogram(aes(x=variant_annotation, fill = group), stat="count")+
+  theme(legend.position="bottom", legend.box = "horizontal", 
+        legend.text=element_text(size=12),
+        axis.title.x=element_text(size=12),
+        axis.title.y=element_text(size=12),
+        axis.text.x=element_text(size=12, angle = 90),
+        axis.text.y=element_text(size=12))+
+  ylab("Count")+
+  xlab("Variant annotation")
+plot_F_09_notAUG
+
 ```
 
 Saving the plots silently =)
@@ -356,13 +370,17 @@ plot_F_18
 
 
 # additional
+new_labels = c('-6', '-5', '-4', '-3', '-2', '-1')
+names(new_labels) = c(0, 1, 2, 3, 4, 5)
+
 plot_F_22 <- ggplot(sign_diff_Kozaks_AUG, aes(x=group, y=Relative_efficiency))+
   geom_boxplot()+
   theme(legend.position="bottom", legend.box = "horizontal")+
   ylab('Relative efficiency')+
   ylim(c(0, 2))+
   xlab('Group')+
-  facet_grid(cols = vars(Kozak_variant_position))+
+  facet_grid(cols = vars(Kozak_variant_position),
+             labeller = labeller(Kozak_variant_position = new_labels))+
   scale_fill_manual(values = c("cyan", "gray"))+
   theme(legend.position="bottom", legend.box = "horizontal", 
         legend.text = element_text(size=14),
@@ -371,6 +389,7 @@ plot_F_22 <- ggplot(sign_diff_Kozaks_AUG, aes(x=group, y=Relative_efficiency))+
         axis.text.y=element_text(size=14),
         axis.text.x=element_text(size=12, angle = 90),)
 plot_F_22
+
 ```
 
 Saving the plots silently =)
