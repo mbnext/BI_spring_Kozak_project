@@ -183,23 +183,26 @@ We can see that only a few variants have significant effect of the mutation. The
 **Fig. 2. Distribution of the annotation types among the 1984 variants of known pathogenicity in AUG Kozak's**
 
 
+![plot_F_09_notAUG](https://user-images.githubusercontent.com/34398217/169713477-729d7b97-0cf0-4637-9dda-4b81da426b42.jpeg)
+
+**Fig. 3. Distribution of the annotation types among the 673 variants of known pathogenicity in not-AUG Kozak's**
+
+Distributions in AUG and not-AUG Kozak sequences are different. 
+
 ![plot_F_19](https://user-images.githubusercontent.com/34398217/169703919-a5cf8add-64ce-4980-8c33-c8f7369bfb8a.jpeg)
 
-**Fig. 3. Ref. and Alt. Kozak sequences efficiencies for pathogenic and benign variants (for 92 ‘significant’ variants)**
+**Fig. 4. Ref. and Alt. Kozak sequences efficiencies for pathogenic and benign variants (for 92 ‘significant’ variants)**
 
+![plot_F_22](https://user-images.githubusercontent.com/34398217/169713391-8f8b7ff5-1b4c-4aa4-aa6b-b15f6274664d.jpeg)
 
-![plot_F_22](https://user-images.githubusercontent.com/34398217/169704014-d0ab97c6-dbac-4040-81dd-e45f290017a1.jpeg)
-
-
-**Fig. 4. Distribution of relative efficiencies (Alt.Eff/Ref.Eff.) of Kozak sequences  for pathogenic and benign variants according to the variant position in upstream Kozak sequence (for 92 ‘significant’ variants)** 
-0 is ‘-6’ position, 1 is ‘-5’, etc. 
-One outlier (near 4) was deleted from the plot
+**Fig. 5. Distribution of relative efficiencies (Alt.Eff/Ref.Eff.) of Kozak sequences  for pathogenic and benign variants according to the variant position in upstream Kozak sequence (for 92 ‘significant’ variants)** 
+One outlier (near 4) was deleted from the plot. 
 
 
 More plots are in the file **spring_project.html**
 
 ## Conclusions
-According to performed analysis, there are no significant differences in the predicted translation efficiency of the reference and alternative Kozak sequences referred as benign or pathogenic (but the particular position can be significant).
+According to performed analysis, there are no significant differences in the predicted translation efficiency of the reference and alternative Kozak sequences referred as benign or pathogenic (but the particular position can be significant, the additional more carefull analysis seems to be performed after check of all of the scripts and calculation procedures).
 
 ## Future plans
 1. Fix the bugs:
