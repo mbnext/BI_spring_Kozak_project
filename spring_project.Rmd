@@ -49,11 +49,11 @@ I should analyse on this step of the project the variants with clear pathogenici
 ``` {r data02}
 known_sign = c('Pathogenic', 'Likely_pathogenic', 'Pathogenic/Likely_pathogenic', 'Benign')
 kozak_dataset_short <-subset(kozak_dataset, Clin_Sig %in% known_sign)
-kozak_dataset_short$pathogenic <- kozak_dataset_short$Clin_Sig %in% c('Pathogenic', 'Likely_pathogenic', 'Pathogenic/Likely_pathogenic')
+kozak_dataset_short$group <- ifelse(kozak_dataset_short$Clin_Sig %in% c('Pathogenic', 'Likely_pathogenic', 'Pathogenic/Likely_pathogenic'), 'pathogenic', 'benign')
 head(kozak_dataset_short)
 
-nrow(kozak_dataset_short[kozak_dataset_short$Clin_Sig == 'Benign', ]) 
-nrow(kozak_dataset_short[kozak_dataset_short$Clin_Sig %in% c('Pathogenic', 'Likely_pathogenic', 'Pathogenic/Likely_pathogenic'), ])
+nrow(kozak_dataset_short[kozak_dataset_short$group == 'benign', ]) 
+nrow(kozak_dataset_short[kozak_dataset_short$group == 'pathogenic', ])
 nrow(kozak_dataset_short[kozak_dataset_short$Kozak_type == 'not_AUG_Kozak', ]) 
 nrow(kozak_dataset_short[kozak_dataset_short$Kozak_type == 'AUG_Kozak', ]) 
 nrow(kozak_dataset_short) 
@@ -87,19 +87,19 @@ plot_F_03 <- ggplot(kozak_dataset_short)+
 plot_F_03
 
 plot_F_04 <- ggplot(kozak_dataset_short)+
-  geom_histogram(aes(x=variant_annotation, fill = pathogenic), stat="count")+
+  geom_histogram(aes(x=variant_annotation, fill = group), stat="count")+
   theme(legend.position="bottom", legend.box = "horizontal", 
-        legend.text=element_text(size=14),
-        axis.title.x=element_text(size=14),
-        axis.title.y=element_text(size=14),
-        axis.text.x=element_text(size=14, angle = 90),
-        axis.text.y=element_text(size=14))+
+        legend.text=element_text(size=12),
+        axis.title.x=element_text(size=12),
+        axis.title.y=element_text(size=12),
+        axis.text.x=element_text(size=12, angle = 90),
+        axis.text.y=element_text(size=12))+
   ylab("Count")+
   xlab("Variant annotation")
 plot_F_04
 
 plot_F_05 <- ggplot(kozak_dataset_short)+
-  geom_histogram(aes(x=Kozak_type, fill = pathogenic), stat="count")+
+  geom_histogram(aes(x=Kozak_type, fill = group), stat="count")+
   theme(legend.position="bottom", legend.box = "horizontal")
 plot_F_05
 ```
@@ -132,8 +132,8 @@ Significant part of the data belongs to the 'not_AUG_Kozak' subset but we work n
 ``` {r data03}
 kozak_dataset_short_AUG <- subset(kozak_dataset_short, Kozak_type == 'AUG_Kozak')
 nrow(kozak_dataset_short_AUG) 
-nrow(kozak_dataset_short_AUG[kozak_dataset_short_AUG$pathogenic == TRUE, ]) 
-nrow(kozak_dataset_short_AUG[kozak_dataset_short_AUG$pathogenic == FALSE, ]) 
+nrow(kozak_dataset_short_AUG[kozak_dataset_short_AUG$group == 'pathogenic', ]) 
+nrow(kozak_dataset_short_AUG[kozak_dataset_short_AUG$group == 'benign', ]) 
 ```
 
 This data set is written in the file too.
@@ -162,13 +162,13 @@ plot_F_08 <- ggplot(kozak_dataset_short_AUG)+
 plot_F_08
 
 plot_F_09 <- ggplot(kozak_dataset_short_AUG)+
-  geom_histogram(aes(x=variant_annotation, fill = pathogenic), stat="count")+
+  geom_histogram(aes(x=variant_annotation, fill = group), stat="count")+
   theme(legend.position="bottom", legend.box = "horizontal", 
-        legend.text=element_text(size=14),
-        axis.title.x=element_text(size=14),
-        axis.title.y=element_text(size=14),
-        axis.text.x=element_text(size=14, angle = 90),
-        axis.text.y=element_text(size=14))+
+        legend.text=element_text(size=12),
+        axis.title.x=element_text(size=12),
+        axis.title.y=element_text(size=12),
+        axis.text.x=element_text(size=12, angle = 90),
+        axis.text.y=element_text(size=12))+
   ylab("Count")+
   xlab("Variant annotation")
 plot_F_09
@@ -201,8 +201,8 @@ We decided to do this subset because 'no_start', 'missense' and 'nonsense' varia
 locations = c('upstream', 'synonymous')
 kozak_dataset_short_AUG_2 <- subset(kozak_dataset_short_AUG, variant_annotation %in% locations)
 nrow(kozak_dataset_short_AUG_2)
-nrow(kozak_dataset_short_AUG_2[kozak_dataset_short_AUG_2$pathogenic == TRUE, ]) 
-nrow(kozak_dataset_short_AUG_2[kozak_dataset_short_AUG_2$pathogenic == FALSE, ])
+nrow(kozak_dataset_short_AUG_2[kozak_dataset_short_AUG_2$group == 'pathogenic', ]) 
+nrow(kozak_dataset_short_AUG_2[kozak_dataset_short_AUG_2$group == 'benign', ])
 ```
 
 ## Vizualization for "Upstream+synonymous" subset
@@ -226,13 +226,13 @@ plot_F_12 <- ggplot(kozak_dataset_short_AUG_2)+
 plot_F_12
 
 plot_F_13 <- ggplot(kozak_dataset_short_AUG_2)+
-  geom_histogram(aes(x=variant_annotation, fill = pathogenic), stat="count")+
+  geom_histogram(aes(x=variant_annotation, fill = group), stat="count")+
   theme(legend.position="bottom", legend.box = "horizontal", 
-        legend.text=element_text(size=14),
-        axis.title.x=element_text(size=14),
-        axis.title.y=element_text(size=14),
-        axis.text.x=element_text(size=14, angle = 90),
-        axis.text.y=element_text(size=14))+
+        legend.text=element_text(size=12),
+        axis.title.x=element_text(size=12),
+        axis.title.y=element_text(size=12),
+        axis.text.x=element_text(size=12, angle = 90),
+        axis.text.y=element_text(size=12))+
   ylab("Count")+
   xlab("Variant annotation")
 plot_F_13
@@ -264,19 +264,19 @@ subset(kozak_dataset_short_AUG_2, Relative_efficiency<0.5)
 ```
 ## Vizualization for "Upstream+synonymous" subset (melted)
 ``` {r data06}
-kozak_dataset_short_AUG_2_part_melted <- melt(kozak_dataset_short_AUG_2[, c('ID',  'pathogenic', 'Ref_Kozak_efficiency', "Alt_Kozak_efficiency")], id.vars=c("ID", 'pathogenic'))
+kozak_dataset_short_AUG_2_part_melted <- melt(kozak_dataset_short_AUG_2[, c('ID',  'group', 'Ref_Kozak_efficiency', "Alt_Kozak_efficiency")], id.vars=c("ID", 'group'))
 
-kozak_dataset_short_AUG_2_part_melted2 <- melt(kozak_dataset_short_AUG_2[, c('ID',  'pathogenic', 'Kozak_variant_position', 'Ref_Kozak_efficiency', "Alt_Kozak_efficiency")], id.vars=c("ID", 'pathogenic', 'Kozak_variant_position'))
+kozak_dataset_short_AUG_2_part_melted2 <- melt(kozak_dataset_short_AUG_2[, c('ID',  'group', 'Kozak_variant_position', 'Ref_Kozak_efficiency', "Alt_Kozak_efficiency")], id.vars=c("ID", 'group', 'Kozak_variant_position'))
 kozak_dataset_short_AUG_2_part_melted2$Kozak_variant_position <- as.factor(kozak_dataset_short_AUG_2_part_melted2$Kozak_variant_position)
 ```
 
 ``` {r plots04}
 
-plot_F_14 <- ggplot(kozak_dataset_short_AUG_2_part_melted, aes(x=pathogenic, fill=variable))+
+plot_F_14 <- ggplot(kozak_dataset_short_AUG_2_part_melted, aes(x=group, fill=variable))+
   geom_boxplot(aes(y=value))+
   theme(legend.position="bottom", legend.box = "horizontal")+
   ylab('Kozak sequence efficiency')+
-  xlab('Pathogenic')
+  xlab('Group')
 plot_F_14
 
 plot_F_15 <- ggplot(kozak_dataset_short_AUG_2_part_melted2, aes(x=Kozak_variant_position, fill=variable))+
@@ -284,14 +284,14 @@ plot_F_15 <- ggplot(kozak_dataset_short_AUG_2_part_melted2, aes(x=Kozak_variant_
   theme(legend.position="bottom", legend.box = "horizontal")+
   ylab('Kozak sequence efficiency')+
   xlab('Kozak_variant_position')+
-  facet_grid(rows = vars(pathogenic))
+  facet_grid(rows = vars(group))
 plot_F_15
 
-plot_F_16 <- ggplot(kozak_dataset_short_AUG_2_part_melted2, aes(x=pathogenic, fill=variable))+
+plot_F_16 <- ggplot(kozak_dataset_short_AUG_2_part_melted2, aes(x=group, fill=variable))+
   geom_boxplot(aes(y=value))+
   theme(legend.position="bottom", legend.box = "horizontal")+
   ylab('Kozak sequence efficiency')+
-  xlab('Pathogenic or not')+
+  xlab('Group')+
   facet_grid(cols = vars(Kozak_variant_position))
 plot_F_16
 ```
@@ -331,8 +331,8 @@ kozak_dataset_short_AUG_3[kozak_dataset_short_AUG_3$Relative_efficiency <= 1, ]$
 sign_diff_Kozaks_AUG <- subset(kozak_dataset_short_AUG_3, is_significant == TRUE)
 nrow(kozak_dataset_short_AUG_3)
 nrow(sign_diff_Kozaks_AUG) 
-nrow(sign_diff_Kozaks_AUG[sign_diff_Kozaks_AUG$pathogenic == TRUE,])
-nrow(sign_diff_Kozaks_AUG[sign_diff_Kozaks_AUG$pathogenic == FALSE,])
+nrow(sign_diff_Kozaks_AUG[sign_diff_Kozaks_AUG$group == 'pathogenic',])
+nrow(sign_diff_Kozaks_AUG[sign_diff_Kozaks_AUG$group == 'benign',])
 ```
 ## Vizualization of "Only significant" subset
 ``` {r plots05}
@@ -353,6 +353,24 @@ plot_F_18 <- ggplot(sign_diff_Kozaks_AUG)+
   geom_histogram(aes(x=Relative_efficiency))+
   theme(legend.position="bottom", legend.box = "horizontal")
 plot_F_18
+
+
+# additional
+plot_F_22 <- ggplot(sign_diff_Kozaks_AUG, aes(x=group, y=Relative_efficiency))+
+  geom_boxplot()+
+  theme(legend.position="bottom", legend.box = "horizontal")+
+  ylab('Relative efficiency')+
+  ylim(c(0, 2))+
+  xlab('Group')+
+  facet_grid(cols = vars(Kozak_variant_position))+
+  scale_fill_manual(values = c("cyan", "gray"))+
+  theme(legend.position="bottom", legend.box = "horizontal", 
+        legend.text = element_text(size=14),
+        axis.title.x=element_text(size=14), 
+        axis.title.y=element_text(size=14),
+        axis.text.y=element_text(size=14),
+        axis.text.x=element_text(size=12, angle = 90),)
+plot_F_22
 ```
 
 Saving the plots silently =)
@@ -368,48 +386,65 @@ dev.off()
 jpeg(file="plot_F_18.jpeg")
 plot_F_18
 dev.off()
+
+jpeg(file="plot_F_22.jpeg")
+plot_F_22
+dev.off()
 ```
 
 ## Vizualization of "Only significant" subset (melted)
 ``` {r data08}
-sign_diff_Kozaks_AUG_part_melted <- melt(sign_diff_Kozaks_AUG[, c('ID',  'pathogenic', 'Ref_Kozak_efficiency', "Alt_Kozak_efficiency")], id.vars=c("ID", 'pathogenic'))
+sign_diff_Kozaks_AUG_part_melted <- melt(sign_diff_Kozaks_AUG[, c('ID',  'group', 'Ref_Kozak_efficiency', "Alt_Kozak_efficiency")], id.vars=c("ID", 'group'))
 
-sign_diff_Kozaks_AUG_part_melted2 <- melt(sign_diff_Kozaks_AUG[, c('ID',  'pathogenic', 'Kozak_variant_position', 'Ref_Kozak_efficiency', "Alt_Kozak_efficiency")], id.vars=c("ID", 'Kozak_variant_position', 'pathogenic'))
+sign_diff_Kozaks_AUG_part_melted2 <- melt(sign_diff_Kozaks_AUG[, c('ID',  'group', 'Kozak_variant_position', 'Ref_Kozak_efficiency', "Alt_Kozak_efficiency")], id.vars=c("ID", 'Kozak_variant_position', 'group'))
 sign_diff_Kozaks_AUG_part_melted2$Kozak_variant_position <- as.factor(sign_diff_Kozaks_AUG_part_melted2$Kozak_variant_position)
 
 ```
 
 ``` {r plots06}
 
-plot_F_19 <- ggplot(sign_diff_Kozaks_AUG_part_melted, aes(x=pathogenic, fill=variable))+
+plot_F_19 <- ggplot(sign_diff_Kozaks_AUG_part_melted, aes(x=group, fill=variable))+
   geom_violin(aes(y=value))+
   geom_boxplot(aes(y=value), alpha=0.2)+
   theme(legend.position="bottom", legend.box = "horizontal", 
-        legend.text = element_text(size=14),
-        axis.title.x=element_text(size=14), 
-        axis.title.y=element_text(size=14),
-        axis.text.x=element_text(size=14), 
-        axis.text.y=element_text(size=14))+
+        legend.text = element_text(size=12),
+        axis.title.x=element_text(size=12), 
+        axis.title.y=element_text(size=12),
+        axis.text.x=element_text(size=12), 
+        axis.text.y=element_text(size=12))+
   ylab('Kozak sequence efficiency')+
-  xlab('Pathogenic')+
+  xlab('Group')+
   scale_fill_manual(values = c("cyan", "gray"))
 plot_F_19
 
-plot_F_20 <- ggplot(sign_diff_Kozaks_AUG_part_melted2, aes(x=pathogenic, y=value))+
+plot_F_20 <- ggplot(sign_diff_Kozaks_AUG_part_melted, aes(x=group, fill=variable))+
+  geom_boxplot(aes(y=value))+
+  theme(legend.position="bottom", legend.box = "horizontal", 
+        legend.text = element_text(size=12),
+        axis.title.x=element_text(size=12), 
+        axis.title.y=element_text(size=12),
+        axis.text.x=element_text(size=12), 
+        axis.text.y=element_text(size=12))+
+  ylab('Kozak sequence efficiency')+
+  xlab('Group')+
+  scale_fill_manual(values = c("cyan", "gray"))
+plot_F_20
+
+
+plot_F_21 <- ggplot(sign_diff_Kozaks_AUG_part_melted2, aes(x=group, y=value))+
   geom_violin(aes(fill=variable))+
   theme(legend.position="bottom", legend.box = "horizontal")+
   ylab('Kozak sequence efficiency')+
-  xlab('Pathogenic or not')+
+  xlab('Group')+
   facet_grid(cols = vars(Kozak_variant_position))+
   scale_fill_manual(values = c("cyan", "gray"))+
   theme(legend.position="bottom", legend.box = "horizontal", 
         legend.text = element_text(size=14),
         axis.title.x=element_text(size=14), 
         axis.title.y=element_text(size=14),
-        axis.text.y=element_text(size=14))+
-  ylab('Kozak sequence efficiency')+
-  xlab('Pathogenic')
-plot_F_20
+        axis.text.y=element_text(size=14))
+plot_F_21
+
 ```
 
 
@@ -422,5 +457,9 @@ dev.off()
 
 jpeg(file="plot_F_20.jpeg")
 plot_F_20
+dev.off()
+
+jpeg(file="plot_F_21.jpeg")
+plot_F_21
 dev.off()
 ```
