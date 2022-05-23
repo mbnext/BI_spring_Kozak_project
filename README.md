@@ -32,7 +32,7 @@ My tasks were:
  - Kozak sequence efficiency data - 10.15252/msb.20145136, supplementary
 ### Data preprocessing
 #### Small useful functions
-I have write small code inthe script _dna_rna_functions.py_:
+I have written some small code in the script _dna_rna_functions.py_:
 1. _dna_rev_com(seq)_ to transform DNA into reverse complement DNA
 2. _dna_to_rna_convert(seq)_ to transform DNA into RNA
 3. _mutation_type(ref_triplet, alt_triplet)_ to define the type of mutation (synonymous, missense or nonsense). 
