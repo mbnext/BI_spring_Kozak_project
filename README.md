@@ -156,7 +156,7 @@ There are 2 positional arguments in the script: input and output files pathways.
 "ID	chromosome	position	Ref	Alt	Kozak_start	Kozak_end	Chain	Kozak_variant_position	variant_annotation	Kozak_type	Ref_Kozak_efficiency	Ref_Kozak_lower	Ref_Kozak_upper	Alt_Kozak_efficiency	Alt_Kozak_lower	Alt_Kozak_upper	Change_description	Relative_efficiency	Clin_Sig	Gene"
 
 ### Analysis with R
-The datasets for ClinVar and gnomAD variants were downloaded as data frames and then joined with _rbind()_. Vizualization was performed with the package _ggplot2_. The _reshape2_ package has to be downloaded too. The details are in the file **spring_project.Rmd** (knitted version is [spring_project.pdf] (spring_project.pdf))
+The datasets for ClinVar and gnomAD variants were downloaded as data frames and then joined with _rbind()_. Vizualization was performed with the package _ggplot2_. The _reshape2_ package has to be downloaded too. The details are in the file **spring_project.Rmd** (knitted version is [./spring_project.pdf](https://github.com/mbnext/BI_spring_Kozak_project/blob/draft/spring_project.pdf))
 
 ### Model training
 The dataset for ClinVar variants was downloaded in Jupyter notebook. I have tried to learn the _DecisionTreeClassifier_ from the library _Sci-kit Learn_ but the results were diffucult to interpret and they are not represented here. May be we will return to this task after corrections in the previous described analysis. 
@@ -199,7 +199,7 @@ Distributions in AUG and not-AUG Kozak sequences are different.
 One outlier (near 4) was deleted from the plot. 
 
 
-More plots are in the file [spring_project.pdf] (spring_project.pdf).
+More plots are in the file [./spring_project.pdf](https://github.com/mbnext/BI_spring_Kozak_project/blob/draft/spring_project.pdf).
 
 ## Conclusions
 According to performed analysis, there are no significant differences in the predicted translation efficiency of the reference and alternative Kozak sequences referred as benign or pathogenic (but the particular position can be significant, the additional more carefull analysis seems to be performed after check of all of the scripts and calculation procedures).
