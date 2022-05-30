@@ -1,39 +1,39 @@
-# script for "crude" annotation:
-# the position is in range from 0 to 5 = "upstream"
-# the position is in range from 6 to 8, in the start codon = "no_start"
-# the position is 9 or 10 and Kozak sequences plus 1 nt are used to understand the change in 2nd codon = 'synonymous'/'missense'/'nonsense'
-# if the Ref letter from the .vcf file is not on the dedicated position in the Kozak sequence extracted from the genome = 'Error in annotation'
-# the last info is written in the file with errors too.
+"""script for "crude" annotation:
+the position is in range from 0 to 5 = "upstream"
+the position is in range from 6 to 8, in the start codon = "no_start"
+the position is 9 or 10 and Kozak sequences plus 1 nt are used to understand the change in 2nd codon = 'synonymous'/'missense'/'nonsense'
+if the Ref letter from the .vcf file is not on the dedicated position in the Kozak sequence extracted from the genome = 'Error in annotation'
+the last info is written in the file with errors too.
 
-# input: .txt with \t as delimiter:
-# 1 - chromosome (from vcf)
-# 2 - variant position (1-based from vcf)
-# 3 - ID (from vcf)
-# 4 - ref (from vcf)
-# 5 - alt (from vcf)
-# 6 - quality (from vcf)
-# 7 - filter (from vcf)
-# 8 - info (from vcf)
-# 9 - start (0-based, from custom .bed)
-# 10 - end (0-based, from custom .bed)
-# 11 - chain ( + forward, - reverse, from custom .bed)
-# 12 - calculated Kozak position (0 - -6, 1 - -5, 2 - -4, 3 - -3, 4 - -2, 5 - -1, 6 - +1, 7 - +2, 8 - +3, 9 - +4, 10 - +5)
+input: .txt with \t as delimiter:
+1 - chromosome (from vcf)
+2 - variant position (1-based from vcf)
+3 - ID (from vcf)
+4 - ref (from vcf)
+5 - alt (from vcf)
+6 - quality (from vcf)
+7 - filter (from vcf)
+8 - info (from vcf)
+9 - start (0-based, from custom .bed)
+10 - end (0-based, from custom .bed)
+11 - chain ( + forward, - reverse, from custom .bed)
+12 - calculated Kozak position (0 - -6, 1 - -5, 2 - -4, 3 - -3, 4 - -2, 5 - -1, 6 - +1, 7 - +2, 8 - +3, 9 - +4, 10 - +5)
 
-# output: .txt with \t as delimiter:
-# 1 - chromosome (from vcf)
-# 2 - variant position (1-based from vcf)
-# 3 - ID (from vcf)
-# 4 - ref (from vcf)
-# 5 - alt (from vcf)
-# 6 - quality (from vcf)
-# 7 - filter (from vcf)
-# 8 - info (from vcf)
-# 9 - start (0-based, from custom .bed)
-# 10 - end (0-based, from custom .bed)
-# 11 - chain ( + forward, - reverse, from custom .bed)
-# 12 - calculated Kozak position (0 - -6, 1 - -5, 2 - -4, 3 - -3, 4 - -2, 5 - -1, 6 - +1, 7 - +2, 8 - +3, 9 - +4, 10 - +5)
-# 13 - annotation ("upstream", "no_start", 'synonymous'/'missense'/'nonsense', 'Error in annotation')
-# 14 - Kozak type ('AUG_Kozak', 'not_AUG_Kozak')
+output: .txt with \t as delimiter:
+1 - chromosome (from vcf)
+2 - variant position (1-based from vcf)
+3 - ID (from vcf)
+4 - ref (from vcf)
+5 - alt (from vcf)
+6 - quality (from vcf)
+7 - filter (from vcf)
+8 - info (from vcf)
+9 - start (0-based, from custom .bed)
+10 - end (0-based, from custom .bed)
+11 - chain ( + forward, - reverse, from custom .bed)
+12 - calculated Kozak position (0 - -6, 1 - -5, 2 - -4, 3 - -3, 4 - -2, 5 - -1, 6 - +1, 7 - +2, 8 - +3, 9 - +4, 10 - +5)
+13 - annotation ("upstream", "no_start", 'synonymous'/'missense'/'nonsense', 'Error in annotation')
+14 - Kozak type ('AUG_Kozak', 'not_AUG_Kozak')"""
 
 import argparse
 from dna_rna_functions import mutation_type
@@ -80,7 +80,7 @@ with open(kozak_coordinates_path, 'r') as input_file:
         key_coord = f'>{input_line[0]}:{input_line[1]}-{input_line[2]}'
         kozak_coordinates[key_coord] = input_line[3]
 
-# classify the Kozak's (chain + or -, contains AUG or do not contain AUG
+# classify the Kozak's (chain + or -, contains AUG or do not contain AUG)
 for key in kozak_plus_1_dict.keys():
     val = kozak_plus_1_dict[key]
     if key in kozak_coordinates.keys():
@@ -107,8 +107,8 @@ if len(kozak_without_ATG.keys()) > 0:
             error1_file.write(kozak_without_ATG[key] + '\n')
 
 
-# annotation function
 def crude_annotator(input_string_as_list, kozak_plus_one_dictionary, key):
+    """annotation function"""
     inp_data = input_string_as_list
     res1 = ''
     res2 = ''
@@ -154,7 +154,7 @@ def crude_annotator(input_string_as_list, kozak_plus_one_dictionary, key):
                         alt = None
                     else:
                         alt = ref[0] + alt_letter_at_position + ref[-1]
-                    # последняя буква триплета в последовательность Козак не входит, ее не проверяем
+                    # the last letter is not in the KOzak sequence, do not check it
             else:
                 ref, alt = None, None
 

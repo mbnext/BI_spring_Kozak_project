@@ -1,5 +1,7 @@
-# to convert DNA sequence in reverse complement DNA
+"""Small useful scripts"""
+
 def dna_rev_com(seq):
+    """to convert DNA sequence in reverse complement DNA"""
     seq_to_revcom = reversed(seq.upper())
     res_seq = ""
     com_dict = {"A": "T", "T": "A", "G": "C", "C": "G"}
@@ -8,8 +10,8 @@ def dna_rev_com(seq):
     return res_seq
 
 
-# to convert DNA sequence in RNA
 def dna_to_rna_convert(seq):
+    """to convert DNA sequence in RNA"""
     if len(set(seq)) > 4:
         raise ValueError("Your sequence seem to have more than A, T, G, C")
     res_seq = ""
@@ -21,8 +23,8 @@ def dna_to_rna_convert(seq):
     return res_seq
 
 
-# to annotate mutation in a protein-coding sequence
 def mutation_type(ref_triplet, alt_triplet):
+    """to annotate mutation in a protein-coding sequence"""
     genetic_code = {'UUU': "F", 'UUC': "F", 'UUA': "L", 'UUG': "L",
                     'UCU': "S", 'UCC': "S", 'UCA': "S", 'UCG': "S",
                     'UAU': "Y", 'UAC': 'Y', 'UAA': 'stop', 'UAG': 'stop',
