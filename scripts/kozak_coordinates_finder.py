@@ -1,8 +1,8 @@
-# input: genome annotation .gff (without mitochondrial DNA, containns only transcript and corresponding exons and CDS
-# script finds the first exon of evey transcript, then find start of its CDS and make the interval of Kozak sequence [-6; +5]
-# if it is + chain, the interval is [-7, +5) (0 based, right border is not included)
-# if it is - chain, the interval is [-6, +6) (0 based, right border is not included)
-# output: .bed file: $1 - chromosome, $2 - start, $3 - end, $4 - chain orientation
+"""input: genome annotation .gff (without mitochondrial DNA, containns only transcript and corresponding exons and CDS
+script finds the first exon of evey transcript, then find start of its CDS and make the interval of Kozak sequence [-6; +5]
+if it is + chain, the interval is [-7, +5) (0 based, right border is not included)
+if it is - chain, the interval is [-6, +6) (0 based, right border is not included)
+output: .bed file: $1 - chromosome, $2 - start, $3 - end, $4 - chain orientation"""
 
 import argparse
 
