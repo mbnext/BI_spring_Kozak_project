@@ -27,8 +27,8 @@ My tasks were:
  - Jupyter notebook 6.0
 ### Data sources
  - gencode genome annotation and assembly - GRCh38.p13 Release 40 [3]
- - gnomAD variants with allele frequency >5% - kindly provided by Y.Barbitov
- - Clinvar variants - kindly provided by Y.Barbitov
+ - Clinvar variants - extracted data from [4] were kindly provided by Y.Barbitov
+ - gnomAD variants with allele frequency >5% - extracted data from [5] were kindly provided by Y.Barbitov 
  - Kozak sequence efficiency data - [2], supplementary
 ### Data preprocessing
 #### Small useful functions
@@ -156,7 +156,7 @@ There are 2 positional arguments in the script: input and output files pathways.
 "ID	chromosome	position	Ref	Alt	Kozak_start	Kozak_end	Chain	Kozak_variant_position	variant_annotation	Kozak_type	Ref_Kozak_efficiency	Ref_Kozak_lower	Ref_Kozak_upper	Alt_Kozak_efficiency	Alt_Kozak_lower	Alt_Kozak_upper	Change_description	Relative_efficiency	Clin_Sig	Gene"
 
 ### Analysis with R
-The datasets for ClinVar and gnomAD variants were downloaded as data frames and then joined with _rbind()_. Vizualization was performed with the package _ggplot2_. The _reshape2_ package has to be downloaded too. The details are in the file **spring_project.Rmd** (knitted version is spring_project.html)
+The datasets for ClinVar and gnomAD variants were downloaded as data frames and then joined with _rbind()_. Vizualization was performed with the package _ggplot2_. The _reshape2_ package has to be downloaded too. The details are in the file **spring_project.Rmd** (knitted version is [spring_project.pdf] (spring_project.pdf))
 
 ### Model training
 The dataset for ClinVar variants was downloaded in Jupyter notebook. I have tried to learn the _DecisionTreeClassifier_ from the library _Sci-kit Learn_ but the results were diffucult to interpret and they are not represented here. May be we will return to this task after corrections in the previous described analysis. 
@@ -199,7 +199,7 @@ Distributions in AUG and not-AUG Kozak sequences are different.
 One outlier (near 4) was deleted from the plot. 
 
 
-More plots are in the file **spring_project.html**
+More plots are in the file [spring_project.pdf] (spring_project.pdf).
 
 ## Conclusions
 According to performed analysis, there are no significant differences in the predicted translation efficiency of the reference and alternative Kozak sequences referred as benign or pathogenic (but the particular position can be significant, the additional more carefull analysis seems to be performed after check of all of the scripts and calculation procedures).
@@ -217,4 +217,5 @@ According to performed analysis, there are no significant differences in the pre
 1. Kozak M. Compilation and analysis of sequences upstream from the translational start site in eukaryotic mRNAs. Nucleic Acids Res. 1984;12(2):857-872. doi:10.1093/nar/12.2.857 
 2. Noderer WL, Flockhart RJ, Bhaduri A, et al. Quantitative analysis of mammalian translation initiation sites by FACS-seq. Mol Syst Biol. 2014;10(8):748. Published 2014 Aug 28. doi:10.15252/msb.20145136
 3. GRCh38.p13 Release 40, URL: https://www.gencodegenes.org/human/
-4. 
+4. ClinVar database, URL: https://www.ncbi.nlm.nih.gov/clinvar/
+5. gnomAD database, URL:https://gnomad.broadinstitute.org/
