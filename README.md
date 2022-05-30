@@ -5,7 +5,7 @@ Student: Marianna Baranovskaia
 Supervisors: Yury Barbitov (Bioinformatics Institute), Michail Skoblov (Research Center of Medical Genetics)
 
 ## Introduction
-Kozak sequence is a consensus nucleotide environment of the start codon in the most of the eukaryotic mRNAs, involved in the translation initiation. Marylin Kozak have described such nucleotide sequences in 1984 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC318541/). Kozak sequence can be different in different mRNAs and is was reported that different Kozak sequences influenced the translation level differently. In 2014, collective of scientists has published the data of direct  measurement of translation level for every possible Kozak sequence containing classic AUG start codon (https://pubmed.ncbi.nlm.nih.gov/25170020/) and computed the model of influence of the particular nucleotides on particular position in the Kozak sequence on the translation efficiency. 
+Kozak sequence is a consensus nucleotide environment of the start codon in the most of the eukaryotic mRNAs, involved in the translation initiation. Marylin Kozak have described such nucleotide sequences in 1984 [1] . Kozak sequence can be different in different mRNAs and is was reported that different Kozak sequences influenced the translation level differently. In 2014, collective of scientists has published the data of direct  measurement of translation level for every possible Kozak sequence containing classic AUG start codon and computed the model of influence of the particular nucleotides on particular position in the Kozak sequence on the translation efficiency [2]. 
 
 It is known that human genome has a lot of variable positions and some of them are annotated as related with some diseases, some of them are referred as benign but the significance of some other genetic variants is uncertain for now. If the variant is located in the protein-coding secuence or other well studied sequence, it is ok to predict the effect of such variant but if is is located in non-coding sequence the prediction becomes more unreliable. 
 
@@ -26,13 +26,15 @@ My tasks were:
  - R 4.1 
  - Jupyter notebook 6.0
 ### Data sources
- - gencode genome annotation and assembly - GRCh38.p13 Release 40 (https://www.gencodegenes.org/human/)
- - gnomAD variants with allele frequency >5% - kindly provided by Y.Barbitov
- - Clinvar variants - kindly provided by Y.Barbitov
- - Kozak sequence efficiency data - 10.15252/msb.20145136, supplementary
+ - gencode genome annotation and assembly - GRCh38.p13 Release 40 [3]
+ - Clinvar variants - extracted data from [4] were kindly provided by Y.Barbitov
+ - gnomAD variants with allele frequency >5% - extracted data from [5] were kindly provided by Y.Barbitov 
+ - Kozak sequence efficiency data - [2], supplementary
 ### Data preprocessing
 #### Small useful functions
+
 I have written some small code in the script _dna_rna_functions.py_:
+
 1. _dna_rev_com(seq)_ to transform DNA into reverse complement DNA
 2. _dna_to_rna_convert(seq)_ to transform DNA into RNA
 3. _mutation_type(ref_triplet, alt_triplet)_ to define the type of mutation (synonymous, missense or nonsense). 
@@ -134,7 +136,7 @@ Additionally I delete here the double chromosome column ($9).
   
 The scipt add also the column with the type of Kozak sequence related with the variant: 'AUG_Kozak' or 'not_AUG_Kozak' (if there is no 'AUG' codon in position 6-8). 'not_AUG_Kozak' sequences are not involved in the analysis because they do not match to the Kozak sequences listed in the paper of Noderer at al. 
 
-5. Run the script for accurate annotation of upstream and synonymous mutation _upstream_mutation_annotator.py_. The script reconstitutes the reference Kozak sequence and finds its efficiency in the list of Kozak sequences from the Noderer's paper and its confidence interval, then reconstitutes the alternative Kozak sequence and finds its efficiency and its confidence interval, calculated the relative efficiency (ratio of Alt. Kozak efficiency to Ref. Kozak efficiency) and add to the file the corresponding columns. There are 4 positional arguments in the script^ input file path, output file path, .fasta of 11 nt Kozak sequences extracted from the genome and .txt file with all Kozak sequences efficiencies. 
+5. Run the script for accurate annotation of upstream and synonymous mutation _upstream_mutation_annotator.py_. The script reconstitutes the reference Kozak sequence and finds its efficiency in the list of Kozak sequences from the Noderer's paper and its confidence interval, then reconstitutes the alternative Kozak sequence and finds its efficiency and its confidence interval, calculated the relative efficiency (ratio of Alt. Kozak efficiency to Ref. Kozak efficiency) and add to the file the corresponding columns. There are 4 positional arguments in the script: input file path, output file path, .fasta of 11 nt Kozak sequences extracted from the genome and .txt file with all Kozak sequences efficiencies. 
   
 `python3 ./script/upstream_mutation_annotator.py <filename>_in_gencode_kozak_CDSstrands_snps_noborders_pos_sorted_annot.txt <filename>_in_gencode_kozak_CDSstrands_snps_noborders_pos_sorted_annot_combo.txt gencode.v40_kozak_seq_pure.fasta Kozak_efficiency_rawdata.txt`
   
@@ -146,7 +148,7 @@ If the variant has an annotation 'no_start', 'Error in annotation', 'missense'/'
   
 There are 2 positional arguments in the script: input and output files pathways. It adds 2 columns to the file: cln_sig and gene.
   
-  In provided gnomAD file was no information about clinical significance and gene name, so I have added the columns 'cln_sig' with the value 'Benign' (probably it was a mistake) and 'gene' with '.' (to mantain the column number in clinvar and gnomAD file). 
+  In provided gnomAD file was no information about clinical significance and gene name, so I have added the columns 'cln_sig' with the value 'Benign' (probably it was a mistake) and 'gene' with '.' (to maintain the column number in clinvar and gnomAD file). 
   
 7. Let's make some corrections: 
 
@@ -156,7 +158,7 @@ There are 2 positional arguments in the script: input and output files pathways.
 "ID	chromosome	position	Ref	Alt	Kozak_start	Kozak_end	Chain	Kozak_variant_position	variant_annotation	Kozak_type	Ref_Kozak_efficiency	Ref_Kozak_lower	Ref_Kozak_upper	Alt_Kozak_efficiency	Alt_Kozak_lower	Alt_Kozak_upper	Change_description	Relative_efficiency	Clin_Sig	Gene"
 
 ### Analysis with R
-The datasets for ClinVar and gnomAD variants were downloaded as data frames and then joined with _rbind()_. Vizualization was performed with the package _ggplot2_. The _reshape2_ package has to be downloaded too. The details are in the file **spring_project.Rmd** (knitted version is spring_project.html)
+The datasets for ClinVar and gnomAD variants were downloaded as data frames and then joined with _rbind()_. Vizualization was performed with the package _ggplot2_. The _reshape2_ package has to be downloaded too. The details are in the file **spring_project.Rmd** (knitted version is [./spring_project.pdf](https://github.com/mbnext/BI_spring_Kozak_project/blob/draft/spring_project.pdf))
 
 ### Model training
 The dataset for ClinVar variants was downloaded in Jupyter notebook. I have tried to learn the _DecisionTreeClassifier_ from the library _Sci-kit Learn_ but the results were diffucult to interpret and they are not represented here. May be we will return to this task after corrections in the previous described analysis. 
@@ -199,7 +201,7 @@ Distributions in AUG and not-AUG Kozak sequences are different.
 One outlier (near 4) was deleted from the plot. 
 
 
-More plots are in the file **spring_project.html**
+More plots are in the file [./spring_project.pdf](https://github.com/mbnext/BI_spring_Kozak_project/blob/draft/spring_project.pdf).
 
 ## Conclusions
 According to performed analysis, there are no significant differences in the predicted translation efficiency of the reference and alternative Kozak sequences referred as benign or pathogenic (but the particular position can be significant, the additional more carefull analysis seems to be performed after check of all of the scripts and calculation procedures).
@@ -212,3 +214,10 @@ According to performed analysis, there are no significant differences in the pre
  - To train various models with corrected data (if it is possible)
 2. Think
 3. … and do some more science :)
+
+## References
+1. Kozak M. Compilation and analysis of sequences upstream from the translational start site in eukaryotic mRNAs. Nucleic Acids Res. 1984;12(2):857-872. doi:10.1093/nar/12.2.857 
+2. Noderer WL, Flockhart RJ, Bhaduri A, et al. Quantitative analysis of mammalian translation initiation sites by FACS-seq. Mol Syst Biol. 2014;10(8):748. Published 2014 Aug 28. doi:10.15252/msb.20145136
+3. GRCh38.p13 Release 40, URL: https://www.gencodegenes.org/human/
+4. ClinVar database, URL: https://www.ncbi.nlm.nih.gov/clinvar/
+5. gnomAD database, URL:https://gnomad.broadinstitute.org/

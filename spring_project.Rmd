@@ -2,7 +2,9 @@
 title: "Spring_project"
 author: "Marianna Baranovskaia"
 date: "21 05 2022"
-output: html_document
+output: 
+  pdf_document: 
+    latex_engine: xelatex
 ---
 
 ```{r setup, include=FALSE}
